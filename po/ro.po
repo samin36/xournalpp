@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-31 21:43\n"
+"PO-Revision-Date: 2023-10-31 23:19\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -3864,7 +3864,7 @@ msgstr "_8 rânduri"
 
 #: ../ui/mainmenubar.xml:337
 msgid "T_oolbars"
-msgstr "B_enzi cu instrumente"
+msgstr "_Benzi cu instrumente"
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
@@ -4036,7 +4036,7 @@ msgstr "Tip de desenare"
 
 #: ../ui/mainmenubar.xml:561
 msgid "_Shape Recognizer"
-msgstr "_Recunoaște forma"
+msgstr "Recunoaște _forma"
 
 #: ../ui/mainmenubar.xml:586
 msgid "Draw Coordinate System"
@@ -4081,7 +4081,7 @@ msgstr "_gros"
 #: ../ui/mainmenubar.xml:683 ../ui/mainmenubar.xml:745
 #: ../ui/mainmenubar.xml:792
 msgid "ver_y thick"
-msgstr "_foarte gros"
+msgstr "foarte g_ros"
 
 #: ../ui/mainmenubar.xml:712 ../ui/mainmenubar.xml:799
 msgid "Fi_ll"
