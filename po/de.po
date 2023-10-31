@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-30 15:01\n"
+"PO-Revision-Date: 2023-10-31 23:19\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -1658,57 +1658,57 @@ msgstr "Vergrösserung"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "Schwarz"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "Grün"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "Hellblau"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "Hellgrün"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "Blau"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "Grau"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "Rot"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Orange"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Gelb"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Weiß"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -3615,48 +3615,48 @@ msgstr "Werkzeugleisten verwalten"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "_Datei"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "Öffnen"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "Zuletzt geöffnete _Dokumente"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "_PDF beschriften"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "Speichern als"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "_Exportieren als PDF"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "Exportieren als..."
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "Beenden"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "_Bearbeiten"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "Alles Auswählen"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Suchen"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
