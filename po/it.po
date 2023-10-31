@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-31 20:38\n"
+"PO-Revision-Date: 2023-10-31 21:44\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -363,14 +363,16 @@ msgstr "Ci dispiace, Xournal++ può aprire solo un file alla volta.\n"
 
 #: ../src/core/control/XournalMain.cpp:441
 msgid "File {1} does not exist."
-msgstr ""
+msgstr "Il file {1} non esiste."
 
 #: ../src/core/control/XournalMain.cpp:445
 #: ../src/core/control/XournalMain.cpp:543
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "Errore del filesystem: {1}\n"
+"Xournal++ non può aprire il file: {2}\n"
+"Considera di copiare il file in una cartella locale."
 
 #: ../src/core/control/XournalMain.cpp:658
 msgid "Jump to Page (first Page: 1)"
@@ -387,7 +389,8 @@ msgstr "Disattiva l'audio per questa sessione"
 #: ../src/core/control/XournalMain.cpp:666
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "Apri PDF in modalità allegata\n"
+"                                 Ignorato se non è specificato alcun file PDF."
 
 #: ../src/core/control/XournalMain.cpp:677
 msgid "Export FILE as PDF"
@@ -483,7 +486,7 @@ msgstr "Esporta PDF"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "_Esporta"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -1641,7 +1644,7 @@ msgstr "Pagina"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:12
 msgid "PDF text selection dropdown menu"
-msgstr ""
+msgstr "Menu a discesa selezione testo PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
 msgid "Select PDF Text In Rectangle"
@@ -1649,7 +1652,7 @@ msgstr "Seleziona il testo PDF dal rettangolo"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
 msgid "Selection dropdown menu"
-msgstr ""
+msgstr "Menu a discesa selezione"
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:133
 msgid "Zoom Slider"
@@ -1658,57 +1661,57 @@ msgstr "Cursore zoom"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "Nero"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "Azzurro"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "Verde Chiaro"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "Blu"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "Grigio"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "Rosso"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Arancione"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Giallo"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Bianco"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2418,7 +2421,8 @@ msgstr "Preferenze Xournal++"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>Se il documento è già stato salvato, puoi trovarlo nella stessa cartella con l'estensione .autosave. xopp\n"
+"Se il file non è stato ancora salvato, puoi trovarlo in ~/.cache/xournalpp/autosaves</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -2469,7 +2473,30 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%a\t\tNome abbreviato del giorno della settimana (ad es. Gio)\n"
+"%A\t\tNome completo del giorno della settimana (ad es. Giovedì)\n"
+"%b\t\tNome abbreviato del mese (ad es. Ago)\n"
+"%B\t\tNome completo del mese (ad es. Agosto)\n"
+"%c\t\tRappresentazione della data e dell'ora (ad es. Gio 23 Agosto 14:55:02 2001)\n"
+"%d\t\tGiorno del mese (01-31)\n"
+"%F\t\tRappresentazione della data (ad es. 2001-08-23)\n"
+"%H\t\tOra in formato 24h (00-23)\n"
+"%I\t\tOra in formato 12h (01-12)\n"
+"%j\t\tGiorno dell'anno (001-366)\n"
+"%m\t\tMese come numero decimale (01-12)\n"
+"%M\t\tMinuti (00-59)\n"
+"%p\t\tDesignazione AM o PM (ad es. PM)\n"
+"%S\t\tSecondi (00-61)\n"
+"%U\t\tNumero della settimana con la prima domenica come primo giorno della prima settimana (00-53)\n"
+"%w\t\tGiorno della settimana come numero decimale con la domenica come 0 (0-6)\n"
+"%W\t\tNumero della settimana con il primo lunedì come primo giorno della prima settimana (00-53)\n"
+"%x\t\tRappresentazione della data (ad es. 08/23/01)\n"
+"%X\t\tRappresentazione dell'ora (ad es. 14:55:02)\n"
+"%y\t\tAnno, ultime due cifre (00-99)\n"
+"%Y\t\tAnno (ad es. 2001)\n"
+"%Z\t\tNome o abbreviazione del fuso orario (ad es. CDT)\n"
+"%%\t\tSegno %\n"
+"I caratteri non consentiti vengono sostituiti con \"_\""
 
 #: ../ui/settings.glade:585 ../ui/settings.glade:754
 msgid "Available Placeholders"
@@ -2509,7 +2536,31 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%{name}\tIl nome del documento esportato\n"
+"%a\t\t\tNome abbreviato del giorno della settimana (ad es. Gio)\n"
+"%A\t\t\tNome completo del giorno della settimana (ad es. Giovedì)\n"
+"%b\t\t\tNome abbreviato del mese (ad es. Ago)\n"
+"%B\t\t\tNome completo del mese (ad es. Agosto)\n"
+"%c\t\t\tRappresentazione della data e dell'ora (ad es. Gio 23 Agosto 14:55:02 2001)\n"
+"%d\t\t\tGiorno del mese (01-31)\n"
+"%F\t\t\tRappresentazione della data (ad es. 2001-08-23)\n"
+"%H\t\t\tOra in formato 24h (00-23)\n"
+"%I\t\t\tOra in formato 12h (01-12)\n"
+"%j\t\t\tGiorno dell'anno (001-366)\n"
+"%m\t\t\tMese come numero decimale (01-12)\n"
+"%M\t\t\tMinuti (00-59)\n"
+"%p\t\t\tDesignazione AM o PM (ad es. PM)\n"
+"%S\t\t\tSecondi (00-61)\n"
+"%U\t\t\tNumero della settimana con la prima domenica come primo giorno della prima settimana (00-53)\n"
+"%w\t\t\tGiorno della settimana come numero decimale con la domenica come 0 (0-6)\n"
+"%W\t\t\tNumero della settimana con il primo lunedì come primo giorno della prima settimana (00-53)\n"
+"%x\t\t\tRappresentazione della data (ad es. 08/23/01)\n"
+"%X\t\t\tRappresentazione dell'ora (ad es. 14:55:02)\n"
+"%y\t\t\tAnno, ultime due cifre (00-99)\n"
+"%Y\t\t\tAnno (ad es. 2001)\n"
+"%Z\t\t\tNome o abbreviazione del fuso orario (ad es. CDT)\n"
+"%%\t\t\tSegno %\n"
+"I caratteri non consentiti vengono sostituiti con \"_\""
 
 #: ../ui/settings.glade:778
 msgid "Default Pdf export name"
@@ -2659,23 +2710,23 @@ msgstr "Stabilizzazione"
 
 #: ../ui/settings.glade:1391
 msgid "Indent using spaces"
-msgstr ""
+msgstr "Rientro usando gli spazi"
 
 #: ../ui/settings.glade:1413
 msgid "Number of Spaces : "
-msgstr ""
+msgstr "Numero di spazi : "
 
 #: ../ui/settings.glade:1425
 msgid "Number of spaces inserted with tab."
-msgstr ""
+msgstr "Numero di spazi inseriti con il tasto Tab."
 
 #: ../ui/settings.glade:1427
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../ui/settings.glade:1456
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: ../ui/settings.glade:1487
 msgid "Input System"
@@ -3600,7 +3651,7 @@ msgstr "Comando di generazione"
 
 #: ../ui/toolbarCustomizeDialog.glade:30
 msgid "Drag and drop Components from here to the toolbars and back."
-msgstr ""
+msgstr "Trascina e rilascia i Componenti da qui alla Barra degli Strumenti e viceversa."
 
 #: ../ui/toolbarCustomizeDialog.glade:62
 msgid "<b>Default Tools</b>"
@@ -3620,92 +3671,92 @@ msgstr "Gestisci Barra degli Strumenti"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "_File"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "Apri"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "_Documenti Recenti"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "_Annota PDF"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "Salva come"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "_Esporta come PDF"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "Esporta come..."
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "Esci"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "_Modifica"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "Seleziona Tutto"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Cerca"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
-msgstr ""
+msgstr "Disponi la selezione"
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "Porta in primo piano"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "Porta avanti"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "Porta Indietro"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "Porta sullo sfondo"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "Sposta su la selezione del livello"
 
 #: ../ui/mainmenubar.xml:146
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "Sposta giù la selezione del livello"
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "Preferenze"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
-msgstr ""
+msgstr "_Vista"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "_Pagine accoppiate"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "Modalità _Presentazione"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
@@ -3909,75 +3960,75 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:457
 msgid "Append New PDF Pages"
-msgstr ""
+msgstr "Aggiungi nuove pagine PDF"
 
 #: ../ui/mainmenubar.xml:461
 msgid "Configure Page Template"
-msgstr ""
+msgstr "Configura Modello Pagina"
 
 #: ../ui/mainmenubar.xml:465
 msgid "_Delete Page"
-msgstr ""
+msgstr "_Elimina Pagina"
 
 #: ../ui/mainmenubar.xml:472
 msgid "New _Layer"
-msgstr ""
+msgstr "Nuovo _Livello"
 
 #: ../ui/mainmenubar.xml:477
 msgid "Delete Layer"
-msgstr ""
+msgstr "Elimina Livello"
 
 #: ../ui/mainmenubar.xml:482
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "Unisci al livello sottostante"
 
 #: ../ui/mainmenubar.xml:487
 msgid "Rename Layer"
-msgstr ""
+msgstr "Rinomina Livello"
 
 #: ../ui/mainmenubar.xml:494
 msgid "Paper _Format"
-msgstr ""
+msgstr "_Formato Carta"
 
 #: ../ui/mainmenubar.xml:498
 msgid "Paper _Color"
-msgstr ""
+msgstr "_Colore Carta"
 
 #: ../ui/mainmenubar.xml:502
 msgid "Paper B_ackground"
-msgstr ""
+msgstr "Sfondo C_arta"
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
-msgstr ""
+msgstr "_Strumenti"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
-msgstr ""
+msgstr "_Penna"
 
 #: ../ui/mainmenubar.xml:516
 msgid "_Eraser"
-msgstr ""
+msgstr "_Gomma"
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
-msgstr ""
+msgstr "Seleziona testo lineare"
 
 #: ../ui/mainmenubar.xml:528
 msgid "Select Text In Rectangle"
-msgstr ""
+msgstr "Seleziona il testo dal rettangolo"
 
 #: ../ui/mainmenubar.xml:534
 msgid "_Highlighter"
-msgstr ""
+msgstr "_Evidenziatore"
 
 #: ../ui/mainmenubar.xml:540
 msgid "_Text"
-msgstr ""
+msgstr "_Testo"
 
 #: ../ui/mainmenubar.xml:546
 msgid "_Image"
-msgstr ""
+msgstr "_Immagine"
 
 #: ../ui/mainmenubar.xml:552
 msgid "_Default Tool"
