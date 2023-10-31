@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-31 16:40\n"
+"PO-Revision-Date: 2023-10-31 21:43\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -370,7 +370,7 @@ msgstr "Fișierul {1} nu există."
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr "Eroare de fișier: {1}\n"
+msgstr "Eroare a fișierului de sistem: {1}\n"
 "Xournal++ nu poate deschide fișierul: {2}\n"
 "Încearcă să copiezi fișierul într-un dosar local."
 
@@ -3992,7 +3992,7 @@ msgstr "_Culoare hârtiei"
 
 #: ../ui/mainmenubar.xml:502
 msgid "Paper B_ackground"
-msgstr "_Fondul hârtiei"
+msgstr "Fo_ndul hârtiei"
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
