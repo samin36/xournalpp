@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-01 10:43\n"
+"PO-Revision-Date: 2023-11-01 12:25\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -3912,7 +3912,7 @@ msgstr "Pagina _următoare"
 
 #: ../ui/mainmenubar.xml:402
 msgid "_Last Page"
-msgstr "_Ultima pagină"
+msgstr "Ul_tima pagină"
 
 #: ../ui/mainmenubar.xml:409
 msgid "_Previous Layer"
