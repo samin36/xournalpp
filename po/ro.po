@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-31 23:19\n"
+"PO-Revision-Date: 2023-11-01 10:43\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -1414,7 +1414,7 @@ msgstr "Mărește"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:375
 msgid "Zoom fit to screen"
-msgstr "Zoom adaptat ferestrei"
+msgstr "Zoom Încadrare optimă"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:376
 msgid "Zoom to 100%"
@@ -3780,7 +3780,7 @@ msgstr "_De la dreapta la stânga"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr "_De sus în jos"
+msgstr "De s_us în jos"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
