@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-30 15:01\n"
+"PO-Revision-Date: 2023-11-01 15:37\n"
 "Last-Translator: \n"
 "Language-Team: Czech\n"
 "Language: cs_CZ\n"
@@ -40,11 +40,11 @@ msgstr "Konfigurace nástrojové lišty „{1}“ je předdefinována. Přejete 
 
 #: ../src/core/control/Control.cpp:569
 msgid "Yes"
-msgstr ""
+msgstr "Ano"
 
 #: ../src/core/control/Control.cpp:569
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: ../src/core/control/Control.cpp:748
 msgid "No pdf pages available to append. You may need to reopen the document first."
@@ -139,7 +139,7 @@ msgstr "Soubory Xournalu++"
 
 #: ../src/core/control/Control.cpp:1772
 msgid "Select font"
-msgstr ""
+msgstr "Vybrat písmo"
 
 #: ../src/core/control/Control.cpp:1787
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
@@ -267,23 +267,23 @@ msgstr "PDF pozadí chybí"
 
 #: ../src/core/control/PrintHandler.cpp:118
 msgid "Running print operation failed with {1}"
-msgstr ""
+msgstr "Spuštěná tisková operace selhala s {1}"
 
 #: ../src/core/control/XournalMain.cpp:147
 msgid "Failed to delete file: {1}"
-msgstr ""
+msgstr "Nepodařilo se odstranit soubor: {1}"
 
 #: ../src/core/control/XournalMain.cpp:149
 msgid "Please delete the file manually"
-msgstr ""
+msgstr "Prosím odstraňte soubor ručně"
 
 #: ../src/core/control/XournalMain.cpp:185
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Existuje nedávný soubor s chybovým záznamem z Xournal++. Vyplňte prosím hlášení o chybě, aby mohla být chyba opravena."
 
 #: ../src/core/control/XournalMain.cpp:187
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "K dispozici jsou nedávné soubory chybových hlášení z Xournal++. Vyplňte prosím hlášení o chybě, aby mohla být chyba opravena."
 
 #: ../src/core/control/XournalMain.cpp:190
 msgid "The most recent log file name: {1}"
@@ -291,11 +291,11 @@ msgstr "Název nejnovějšího souboru protokolu: {1}"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "To prevent this popup from reappearing, simply delete the errorlogfiles."
-msgstr ""
+msgstr "Chcete-li zabránit tomu, aby se toto vyskakovací okno znovu objevilo, jednoduše odstraňte soubory se záznamy o chybách."
 
 #: ../src/core/control/XournalMain.cpp:195
 msgid "File Bug Report"
-msgstr ""
+msgstr "Soubor Hlášení o chybě"
 
 #: ../src/core/control/XournalMain.cpp:196
 msgid "Open Logfile"
@@ -311,7 +311,7 @@ msgstr "Smazat soubor protokolu"
 
 #: ../src/core/control/XournalMain.cpp:200
 msgid "Crash log"
-msgstr ""
+msgstr "Protokol o pádu"
 
 #: ../src/core/control/XournalMain.cpp:222
 msgid "Xournal++ crashed last time. Would you like to restore the last edited file?"
