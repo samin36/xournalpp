@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-01 07:32\n"
+"PO-Revision-Date: 2023-11-01 21:44\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -370,7 +370,9 @@ msgstr "Datei {1} existiert nicht."
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "Dateisystem-Fehler: {1}\n"
+"Sorry, Xournal++ kann folgende Datei nicht öffnen: {2}\n"
+"Überlegen Sie sich, die Datei in ein lokales Verzeichnis zu kopieren."
 
 #: ../src/core/control/XournalMain.cpp:658
 msgid "Jump to Page (first Page: 1)"
@@ -387,7 +389,8 @@ msgstr "Audio für diese Sitzung deaktivieren"
 #: ../src/core/control/XournalMain.cpp:666
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "Öffnen Sie PDF im Anhang-Modus\n"
+"                                 Ignoriert, wenn keine PDF-Datei angegeben wurde."
 
 #: ../src/core/control/XournalMain.cpp:677
 msgid "Export FILE as PDF"
@@ -483,7 +486,7 @@ msgstr "Exportieren als PDF"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "_Exportieren"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -1641,7 +1644,7 @@ msgstr "Seite"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:12
 msgid "PDF text selection dropdown menu"
-msgstr ""
+msgstr "Dropdown-Menü für PDF-Textauswahl"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
 msgid "Select PDF Text In Rectangle"
@@ -1649,7 +1652,7 @@ msgstr "Text aus Rechteck in PDF auswählen"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
 msgid "Selection dropdown menu"
-msgstr ""
+msgstr "Dropdown-Menü für Auswahl"
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:133
 msgid "Zoom Slider"
@@ -2418,7 +2421,8 @@ msgstr "Xournal++ Einstellungen"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>Wenn das Dokument bereits gespeichert wurde, finden Sie die Datei im selben Ordner mit der Endung .autosave.xoj\n"
+"Wenn die Datei noch nicht gespeichert wurde, finden Sie das Dokument unter ~/.cache/xournalpp/autosaves</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -2659,23 +2663,23 @@ msgstr "Bildstabilisierung"
 
 #: ../ui/settings.glade:1391
 msgid "Indent using spaces"
-msgstr ""
+msgstr "Mit Leerzeichen einrücken"
 
 #: ../ui/settings.glade:1413
 msgid "Number of Spaces : "
-msgstr ""
+msgstr "Anzahl der Leerzeichen: "
 
 #: ../ui/settings.glade:1425
 msgid "Number of spaces inserted with tab."
-msgstr ""
+msgstr "Anzahl der eingefügten Leerzeichen mit Tabulator."
 
 #: ../ui/settings.glade:1427
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../ui/settings.glade:1456
 msgid "Tab"
-msgstr ""
+msgstr "Tabulator"
 
 #: ../ui/settings.glade:1487
 msgid "Input System"
@@ -3660,39 +3664,39 @@ msgstr "Suchen"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
-msgstr ""
+msgstr "Auswahl anordnen"
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "In den Vordergrund"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "Eine Ebene nach vorne"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "Eine Ebene nach hinten"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "In den Hintergrund"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "Auswahl-Ebene nach oben verschieben"
 
 #: ../ui/mainmenubar.xml:146
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "Auswahl Ebene nach unten verschieben"
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "Einstellungen"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
-msgstr ""
+msgstr "_Ansicht"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
@@ -3700,11 +3704,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "_Präsentationsmodus"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
-msgstr ""
+msgstr "Werkzeugleisten anzeigen"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
@@ -3712,7 +3716,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
-msgstr ""
+msgstr "_Horizontal"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
