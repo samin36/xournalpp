@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-02 16:29\n"
+"PO-Revision-Date: 2023-11-02 17:29\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -2473,7 +2473,29 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%a\t\t\tAbgekürzter Wochentag (z.B. Mit)\n"
+"%A\t\t\tWochentag (z.B. Mittwoch)\n"
+"%b\t\t\tAbgekürzter Monat (z.B. Aug)\n"
+"%B\t\t\tMonatsname (z.B. August)\n"
+"%c\t\t\tDatum und Zeit (z.B. Mit 16 Feb 2011 21:05:24 CET)\n"
+"%d\t\t\tTag des Monats (01-31)\n"
+"%F\t\t\tDatum, getrennt mit Bindestrich (z.B. 2011-02-16)\n"
+"%H\t\t\tStunde im 24-Stunden-Format (00-23)\n"
+"%I\t\t\tStunde im 12-Stunden-Format (01-12)\n"
+"%j\t\t\tTag des Jahres (001-366)\n"
+"%m\t\t\tMonat als Zahl (01-12)\n"
+"%M\t\t\tMinute (00-59)\n"
+"%p\t\t\tAM oder PM (z.B. PM)\n"
+"%S\t\t\tSekunde (00-61)\n"
+"%U\t\t\tWochennummer mit dem ersten Sonntag als den ersten Tag der Kalenderwoche 1 (00-53)\n"
+"%w\t\t\tWochentag als Nummer mit Sonntag als 0 (0-6)\n"
+"%W\t\t\tWochennummer mit dem ersten Montag als den ersten Tag der Kalenderwoche 1 (00-53)\n"
+"%x\t\t\tDatum, getrennt mit Punkt (z.B. 16.02.2011)\n"
+"%X\t\t\tZeit (z.B. 14:55:02)\n"
+"%y\t\t\tJahr, zweistellig (00-99)\n"
+"%Y\t\t\tJahr (z.B. 2011)\n"
+"%Z\t\t\tZeitzone (z.B. CET)\n"
+"%%\t\t\tein %-Zeichen"
 
 #: ../ui/settings.glade:585 ../ui/settings.glade:754
 msgid "Available Placeholders"
@@ -2513,7 +2535,30 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%{name}\tName des exportierten Dokuments\n"
+"%a\t\t\tAbgekürzter Wochentag (z.B. Mit)\n"
+"%A\t\t\tWochentag (z.B. Mittwoch)\n"
+"%b\t\t\tAbgekürzter Monat (z.B. Aug)\n"
+"%B\t\t\tMonatsname (z.B. August)\n"
+"%c\t\t\tDatum und Zeit (z.B. Mit 16 Feb 2011 21:05:24 CET)\n"
+"%d\t\t\tTag des Monats (01-31)\n"
+"%F\t\t\tDatum, getrennt mit Bindestrich (z.B. 2011-02-16)\n"
+"%H\t\t\tStunde im 24-Stunden-Format (00-23)\n"
+"%I\t\t\tStunde im 12-Stunden-Format (01-12)\n"
+"%j\t\t\tTag des Jahres (001-366)\n"
+"%m\t\t\tMonat als Zahl (01-12)\n"
+"%M\t\t\tMinute (00-59)\n"
+"%p\t\t\tAM oder PM (z.B. PM)\n"
+"%S\t\t\tSekunde (00-61)\n"
+"%U\t\t\tWochennummer mit dem ersten Sonntag als den ersten Tag der Kalenderwoche 1 (00-53)\n"
+"%w\t\t\tWochentag als Nummer mit Sonntag als 0 (0-6)\n"
+"%W\t\t\tWochennummer mit dem ersten Montag als den ersten Tag der Kalenderwoche 1 (00-53)\n"
+"%x\t\t\tDatum, getrennt mit Punkt (z.B. 16.02.2011)\n"
+"%X\t\t\tZeit (z.B. 14:55:02)\n"
+"%y\t\t\tJahr, zweistellig (00-99)\n"
+"%Y\t\t\tJahr (z.B. 2011)\n"
+"%Z\t\t\tZeitzone (z.B. CET)\n"
+"%%\t\t\tein %-Zeichen"
 
 #: ../ui/settings.glade:778
 msgid "Default Pdf export name"
@@ -3599,7 +3644,7 @@ msgstr "Befehlsausgabe"
 
 #: ../ui/toolbarCustomizeDialog.glade:30
 msgid "Drag and drop Components from here to the toolbars and back."
-msgstr ""
+msgstr "Ziehen Sie Objekte von hier in die Werkzeugleisten und zurück."
 
 #: ../ui/toolbarCustomizeDialog.glade:62
 msgid "<b>Default Tools</b>"
@@ -3700,7 +3745,7 @@ msgstr "_Ansicht"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "Zweispaltig"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
@@ -3712,7 +3757,7 @@ msgstr "Werkzeugleisten anzeigen"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
-msgstr ""
+msgstr "Layout"
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
@@ -3744,7 +3789,7 @@ msgstr "_Spalten / Zeilen"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
-msgstr ""
+msgstr "Spalten"
 
 #: ../ui/mainmenubar.xml:245
 msgid "_1 Column"
@@ -3780,7 +3825,7 @@ msgstr "_8 Spalten"
 
 #: ../ui/mainmenubar.xml:287
 msgid "Set Rows"
-msgstr ""
+msgstr "Zeilen"
 
 #: ../ui/mainmenubar.xml:291
 msgid "_1 Row"
@@ -3844,7 +3889,7 @@ msgstr "Passend zoomen"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
-msgstr ""
+msgstr "_Navigation"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
@@ -3888,7 +3933,7 @@ msgstr "Vorherige beschriftete Seite"
 
 #: ../ui/mainmenubar.xml:437
 msgid "_Journal"
-msgstr ""
+msgstr "_Journal"
 
 #: ../ui/mainmenubar.xml:440
 msgid "New Page _Before"
@@ -4045,11 +4090,11 @@ msgstr "Füll-Deckkraft"
 
 #: ../ui/mainmenubar.xml:722
 msgid "Eraser Optio_ns"
-msgstr ""
+msgstr "Radierer-Einstellungen"
 
 #: ../ui/mainmenubar.xml:752
 msgid "_standard"
-msgstr ""
+msgstr "_Standard"
 
 #: ../ui/mainmenubar.xml:757
 msgid "_whiteout"
@@ -4061,11 +4106,11 @@ msgstr "_Striche löschen"
 
 #: ../ui/mainmenubar.xml:769
 msgid "Highlighter Opti_ons"
-msgstr ""
+msgstr "Textmarker-Einstellungen"
 
 #: ../ui/mainmenubar.xml:809
 msgid "Select PDF Text Options"
-msgstr ""
+msgstr "Optionen für PDF-Texte"
 
 #: ../ui/mainmenubar.xml:812
 msgid "Marker Opacity"
@@ -4145,7 +4190,7 @@ msgstr "Handschriftliche Notizen"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:7
 msgid "tablet;Wacom;pen input;PDF Annotation;markup"
-msgstr ""
+msgstr "Tablet;Wacom;Stifteingabe;PDF beschriften;Markup"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:15
 msgid "com.github.xournalpp.xournalpp"
@@ -4153,23 +4198,23 @@ msgstr "com.github.xournalpp.xournalpp"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:10
 msgid "Xournal++ is a hand note-taking software written in C++ with the target of flexibility, functionality and speed. Stroke recognizer and other parts are based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input from devices such as Wacom Tablets."
-msgstr ""
+msgstr "Xournal++ ist eine in C++ entwickelte Handnotiz-Software mit Fokus auf Flexibilität, Funktionalität und Geschwindigkeit. Figurenerkennung und andere Teile basieren auf dem Xournal-Projekt, das auf Sourceforge zu finden ist. Xournal++ kann auf GNU/Linux (z.B. Ubuntu, Debian, Arch, SUSE), macOS und Windows installiert werden. Handschrifteingabe, z.B. mit einem Wacom-Tablet, wird unterstützt."
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:17
 msgid "Xournal++ features:"
-msgstr ""
+msgstr "Funktionen von Xournal++:"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:21
 msgid "Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)"
-msgstr ""
+msgstr "Unterstützt druckempfindliche Stifte und digitale Zeichentablets (z.B. Wacom, Huion, XP Pen, etc.)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:22
 msgid "Paper backgrounds for note-taking, scratch paper, or whiteboarding"
-msgstr ""
+msgstr "Unterschiedliche Papierstile für Mitschriften, schnelle Notizen und Whiteboarding"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:23
 msgid "Annotate on top of PDFs"
-msgstr ""
+msgstr "Notizen auf PDF-Dateien erstellen"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:24
 msgid "Select text from the background PDF, copy, highlight or underline it or strike it through"
@@ -4229,7 +4274,7 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:38
 msgid "Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)"
-msgstr ""
+msgstr "Seitenleiste mit Seitenvorschau mit erweiterter Seitensortierung, PDF-Lesezeichen und Ebenen (kann individuell ausgeblendet/bearbeitet werden)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:39
 msgid "Allows mapping different tools/colors etc. to stylus/mouse buttons"
