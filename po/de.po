@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-01 21:44\n"
+"PO-Revision-Date: 2023-11-02 16:29\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -1128,7 +1128,7 @@ msgstr "Wählen Sie Deckkraft für: "
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr "Textmarker Optionen"
+msgstr "Textmarker-Einstellungen"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
@@ -3720,27 +3720,27 @@ msgstr "_Horizontal"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
-msgstr ""
+msgstr "_Vertikal"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "_Links nach Rechts"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr ""
+msgstr "_Rechts nach Links"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr ""
+msgstr "_Oben nach Unten"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr ""
+msgstr "_Unten nach Oben"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
-msgstr ""
+msgstr "_Spalten / Zeilen"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
@@ -3840,7 +3840,7 @@ msgstr "Normale Größe"
 
 #: ../ui/mainmenubar.xml:373
 msgid "Zoom to Fit"
-msgstr ""
+msgstr "Passend zoomen"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
@@ -4053,11 +4053,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:757
 msgid "_whiteout"
-msgstr ""
+msgstr "_weiß übermalen"
 
 #: ../ui/mainmenubar.xml:762
 msgid "_delete strokes"
-msgstr ""
+msgstr "_Striche löschen"
 
 #: ../ui/mainmenubar.xml:769
 msgid "Highlighter Opti_ons"
@@ -4069,23 +4069,23 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:812
 msgid "Marker Opacity"
-msgstr ""
+msgstr "Textmarker-Transparenz"
 
 #: ../ui/mainmenubar.xml:818
 msgid "Text Font..."
-msgstr ""
+msgstr "Schriftart..."
 
 #: ../ui/mainmenubar.xml:823
 msgid "Record / Stop"
-msgstr ""
+msgstr "Aufnehmen / Stop"
 
 #: ../ui/mainmenubar.xml:828
 msgid "Pause"
-msgstr ""
+msgstr "Pausieren"
 
 #: ../ui/mainmenubar.xml:855
 msgid "_Help"
-msgstr ""
+msgstr "_Hilfe"
 
 #: ../ui/mainmenubar.xml:859
 msgid "Help"
@@ -4097,51 +4097,51 @@ msgstr "Über"
 
 #: ../resources-templates/pagetemplates.ini.in:17
 msgid "Ruled with vertical line on the right"
-msgstr ""
+msgstr "Liniert mit Randlinie"
 
 #: ../resources-templates/pagetemplates.ini.in:42
 msgid "Graph with border"
-msgstr ""
+msgstr "Kariert mit Rand"
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
-msgstr ""
+msgstr "Alle Werkzeuge"
 
 #: ../resources-templates/toolbar.ini.in:55
 msgid "Portrait"
-msgstr ""
+msgstr "Hochformat"
 
 #: ../resources-templates/toolbar.ini.in:61
 msgid "Minimal Left"
-msgstr ""
+msgstr "Minimal (links)"
 
 #: ../resources-templates/toolbar.ini.in:65
 msgid "Minimal Top"
-msgstr ""
+msgstr "Minimal (oben)"
 
 #: ../resources-templates/toolbar.ini.in:69
 msgid "Xournal++"
-msgstr ""
+msgstr "Xournal++"
 
 #: ../resources-templates/toolbar.ini.in:77
 msgid "Right hand Note Taking"
-msgstr ""
+msgstr "Handschriftliche Notizen (Rechtshänder)"
 
 #: ../resources-templates/toolbar.ini.in:80
 msgid "Toolbar Left"
-msgstr ""
+msgstr "Toolbar links"
 
 #: ../resources-templates/toolbar.ini.in:86
 msgid "Toolbar Right"
-msgstr ""
+msgstr "Toolbar rechts"
 
 #: ../resources-templates/toolbar.ini.in:101
 msgid "Empty Toolbar"
-msgstr ""
+msgstr "Leere Toolbar"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:6
 msgid "Take handwritten notes"
-msgstr ""
+msgstr "Handschriftliche Notizen"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:7
 msgid "tablet;Wacom;pen input;PDF Annotation;markup"
@@ -4149,7 +4149,7 @@ msgstr ""
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:15
 msgid "com.github.xournalpp.xournalpp"
-msgstr ""
+msgstr "com.github.xournalpp.xournalpp"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:10
 msgid "Xournal++ is a hand note-taking software written in C++ with the target of flexibility, functionality and speed. Stroke recognizer and other parts are based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input from devices such as Wacom Tablets."
