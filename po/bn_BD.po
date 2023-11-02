@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-10-30 15:02\n"
+"PO-Revision-Date: 2023-11-02 00:34\n"
 "Last-Translator: \n"
 "Language-Team: Bengali\n"
 "Language: bn_BD\n"
@@ -466,7 +466,8 @@ msgstr ""
 #: ../src/core/control/jobs/BaseExportJob.cpp:53
 msgid "\n"
 " Do you want to continue?"
-msgstr ""
+msgstr "\n"
+"আপনি কি প্রক্রিয়াটি বহাল রাখতে চান?"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:108
 msgid "Failed to resolve path with the following error:\n"
@@ -481,19 +482,19 @@ msgstr ""
 #: ../src/core/control/jobs/PdfExportJob.cpp:20
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:47
 msgid "PDF files"
-msgstr ""
+msgstr "পিডিএফ ফাইলসমূহ"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:29
 msgid "PNG graphics"
-msgstr ""
+msgstr "পিএনজি গ্রাফিক্স"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:30
 msgid "SVG graphics"
-msgstr ""
+msgstr "এসভিজি গ্রাফিক্স"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:31
 msgid "Xournal (Compatibility)"
-msgstr ""
+msgstr "এক্সঔরনাল (সামঞ্জস্য)"
 
 #: ../src/core/control/jobs/CustomExportJob.cpp:131
 #: ../src/core/control/jobs/SaveJob.cpp:131
