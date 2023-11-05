@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-05 13:32\n"
+"PO-Revision-Date: 2023-11-05 14:39\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -292,7 +292,7 @@ msgstr "اسم أحدث ملف سجل: {1}"
 
 #: ../src/core/control/XournalMain.cpp:192
 msgid "To prevent this popup from reappearing, simply delete the errorlogfiles."
-msgstr ""
+msgstr "إذا شئت أن تمنع هذه النافذة المنبثقة من الظهور مجددا، عليك فقط أن تحذف ملفات سجلات الأخطاء."
 
 #: ../src/core/control/XournalMain.cpp:195
 msgid "File Bug Report"
@@ -370,7 +370,9 @@ msgstr "الملف {1} غير موجود."
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "خطأ من نظام الملفات: {1}\n"
+"عذرا، لم يستطع Xournal++‎ أن يفتح الملف: {2}\n"
+"جرب أن تنسخ الملف إلى مجلد محلي."
 
 #: ../src/core/control/XournalMain.cpp:658
 msgid "Jump to Page (first Page: 1)"
@@ -387,7 +389,8 @@ msgstr "عطّل الصوت في هذه الجلسة"
 #: ../src/core/control/XournalMain.cpp:666
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "افتح ملف PDF في وضع الإرفاق\n"
+"                                 يهمل إذا لم يحدد ملف PDF."
 
 #: ../src/core/control/XournalMain.cpp:677
 msgid "Export FILE as PDF"
@@ -1658,57 +1661,57 @@ msgstr "شريط التكبير"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "أسود"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "أخضر"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "أزرق فاتح"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "أخضر فاتح"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "أزرق"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "رمادي"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "أحمر"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "أرجواني"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "برتقالي"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "أصفر"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "أبيض"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2418,7 +2421,8 @@ msgstr "تفضيلات Xournal++‎"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>إذا كان المستند محفوظًا بالفعل، ستجده في نفس مجلده بالامتداد ‪.autosave.xopp‬\n"
+"وإذا لم يكن محفوظًا من قبل، ستجده في ‪~/.cache/xournalpp/autosaves‬</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -2469,7 +2473,32 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "(ملاحظة: جميع المتغيرات تتكون من حرفين: الأول علامة النسبة المئوية «%»،\n"
+"\tوالثاني حرف لاتيني. وعلامة النسبة المئوية قبل الحرف اللاتيني.)\n"
+"‏%a\t\tاسم يوم الأسبوع المختصر (مثلا Thu)\n"
+"‏%A\t\tاسم يوم الأسبوع بالكامل (مثلا Thursday)\n"
+"‏%b\t\tاسم الشهر المختصر (مثلا Aug)\n"
+"‏%B\t\tاسم الشهر بالكامل (مثلا August)\n"
+"‏%c\t\tالتاريخ والوقت (مثلا Thu Aug 23 14:55:02 2001)\n"
+"‏%d\t\tرقم اليوم في الشهر (من 01 إلى 31)\n"
+"‏%F\t\tالتاريخ بالكامل بالنظام الأوروبي (مثلا ‪2001-08-23‬)\n"
+"‏%H\t\tالساعات بنظام الـ٢٤ ساعة (من 00 إلى 24)\n"
+"‏%I\t\tالساعات بنظام الـ١٢ ساعة (من 00 إلى 12)\n"
+"‏%j\t\tرقم اليوم في العام (من 001 إلى 366)\n"
+"‏%m\t\tرقم الشهر (من 01 إلى 12)\n"
+"‏%M\t\tالدقائق (من 00 إلى 59)\n"
+"‏%p\t\t‏AM أو PM (مثلا PM)\n"
+"‏%S\t\tالثواني (من 00 إلى 60)\n"
+"‏%U\t\tرقم الأسبوع في العام، حيث أول يوم أحد هو اليوم الأول من الأسبوع الأول (من 00 إلى 53)\n"
+"‏%w\t\tيوم الأسبوع كرقم، باعتبار يوم الأحد هو الصفر (من 0 إلى 6)\n"
+"‏%W\t\tرقم الأسبوع في العام، حيث أول يوم الاثنين هو اليوم الأول من الأسبوع الأول (من 00 إلى 53)\n"
+"‏%x\t\tالتاريخ بالكامل بالنظام الأمريكي (مثلا 08/23/01)\n"
+"‏%X\t\tالوقت بالكامل (مثلا 14:55:02)\n"
+"‏%y\t\tالعام، آخر رقمين منه (من 00 إلى 99)\n"
+"‏%Y\t\tالعام (مثلا 2001)\n"
+"‏%Z\t\tاسم المنطقة الزمنية أو اختصارها (مثلا EET)\n"
+"‏%%\t\tعلامة %\n"
+"والمحارف غير الصحيحة في الأسماء ستبدل بالشرطة السفلية \"_\""
 
 #: ../ui/settings.glade:585 ../ui/settings.glade:754
 msgid "Available Placeholders"
@@ -3595,7 +3624,7 @@ msgstr "ناتج الأمر"
 
 #: ../ui/toolbarCustomizeDialog.glade:30
 msgid "Drag and drop Components from here to the toolbars and back."
-msgstr ""
+msgstr "اسحب وأفلت المكونات من هذه النافذة إلى أشرطة الأدوات والعكس."
 
 #: ../ui/toolbarCustomizeDialog.glade:62
 msgid "<b>Default Tools</b>"
@@ -3615,32 +3644,32 @@ msgstr "إدارة أشرطة الأدوات"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "_ملف"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "فتح"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "ال_مستندات الحديثة"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "ال_تعليق على PDF"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "حفظ باسم"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "_تصدير كـPDF"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "تصدير كـ..."
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
@@ -3648,11 +3677,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "ت_حرير"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "تحديد الكل"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
@@ -3664,247 +3693,247 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "إحضار إلى المقدمة"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "خطوة إلى الأمام"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "خطوة إلى الخلف"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "إرسال إلى المؤخرة"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "نقل طبقة التحديد لأعلى"
 
 #: ../ui/mainmenubar.xml:146
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "نقل طبقة التحديد لأسفل"
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "التفضيلات"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
-msgstr ""
+msgstr "_عرض"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "اجعل الصفحات م_زدوجة"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "وضع ال_عرض التقديمي"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
-msgstr ""
+msgstr "إظهار أشرطة الأدوات"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
-msgstr ""
+msgstr "تنسيق الصفحات"
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
-msgstr ""
+msgstr "أ_فقي"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
-msgstr ""
+msgstr "_رأسي"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "من الي_سار إلى اليمين"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr ""
+msgstr "من الي_مين إلى اليسار"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr ""
+msgstr "من الأ_على إلى الأسفل"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr ""
+msgstr "من الأسف_ل إلى الأعلى"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
-msgstr ""
+msgstr "أ_عمدة/صفوف"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
-msgstr ""
+msgstr "تعيين الأعمدة"
 
 #: ../ui/mainmenubar.xml:245
 msgid "_1 Column"
-msgstr ""
+msgstr "_1 عمود"
 
 #: ../ui/mainmenubar.xml:250
 msgid "_2 Columns"
-msgstr ""
+msgstr "_2 عمودان"
 
 #: ../ui/mainmenubar.xml:255
 msgid "_3 Columns"
-msgstr ""
+msgstr "_3 أعمدة"
 
 #: ../ui/mainmenubar.xml:260
 msgid "_4 Columns"
-msgstr ""
+msgstr "_4 أعمدة"
 
 #: ../ui/mainmenubar.xml:265
 msgid "_5 Columns"
-msgstr ""
+msgstr "_5 أعمدة"
 
 #: ../ui/mainmenubar.xml:270
 msgid "_6 Columns"
-msgstr ""
+msgstr "_6 أعمدة"
 
 #: ../ui/mainmenubar.xml:275
 msgid "_7 Columns"
-msgstr ""
+msgstr "_7 أعمدة"
 
 #: ../ui/mainmenubar.xml:280
 msgid "_8 Columns"
-msgstr ""
+msgstr "_8 أعمدة"
 
 #: ../ui/mainmenubar.xml:287
 msgid "Set Rows"
-msgstr ""
+msgstr "تعيين الصفوف"
 
 #: ../ui/mainmenubar.xml:291
 msgid "_1 Row"
-msgstr ""
+msgstr "_1 صف"
 
 #: ../ui/mainmenubar.xml:296
 msgid "_2 Rows"
-msgstr ""
+msgstr "_2 صفّان"
 
 #: ../ui/mainmenubar.xml:301
 msgid "_3 Rows"
-msgstr ""
+msgstr "_3 صفوف"
 
 #: ../ui/mainmenubar.xml:306
 msgid "_4 Rows"
-msgstr ""
+msgstr "_4 صفوف"
 
 #: ../ui/mainmenubar.xml:311
 msgid "_5 Rows"
-msgstr ""
+msgstr "_5 صفوف"
 
 #: ../ui/mainmenubar.xml:316
 msgid "_6 Rows"
-msgstr ""
+msgstr "_6 صفوف"
 
 #: ../ui/mainmenubar.xml:321
 msgid "_7 Rows"
-msgstr ""
+msgstr "_7 صفوف"
 
 #: ../ui/mainmenubar.xml:326
 msgid "_8 Rows"
-msgstr ""
+msgstr "_8 صفوف"
 
 #: ../ui/mainmenubar.xml:337
 msgid "T_oolbars"
-msgstr ""
+msgstr "أ_شرطة الأدوات"
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
-msgstr ""
+msgstr "إ_دارة"
 
 #: ../ui/mainmenubar.xml:344
 msgid "_Customize"
-msgstr ""
+msgstr "ت_خصيص"
 
 #: ../ui/mainmenubar.xml:359
 msgid "Zoom In"
-msgstr ""
+msgstr "تكبير"
 
 #: ../ui/mainmenubar.xml:364
 msgid "Zoom Out"
-msgstr ""
+msgstr "تصغير"
 
 #: ../ui/mainmenubar.xml:369
 msgid "Normal Size"
-msgstr ""
+msgstr "الحجم الطبيعي"
 
 #: ../ui/mainmenubar.xml:373
 msgid "Zoom to Fit"
-msgstr ""
+msgstr "ملاءمة الحجم"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
-msgstr ""
+msgstr "ا_نتقال"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
-msgstr ""
+msgstr "الصفحة الأ_ولى"
 
 #: ../ui/mainmenubar.xml:387
 msgid "_Previous Page"
-msgstr ""
+msgstr "الصفحة ال_سابقة"
 
 #: ../ui/mainmenubar.xml:392
 msgid "_Goto Page"
-msgstr ""
+msgstr "ا_نتقال إلى صفحة"
 
 #: ../ui/mainmenubar.xml:397
 msgid "_Next Page"
-msgstr ""
+msgstr "الصفحة ال_تالية"
 
 #: ../ui/mainmenubar.xml:402
 msgid "_Last Page"
-msgstr ""
+msgstr "الصفحة الأ_خيرة"
 
 #: ../ui/mainmenubar.xml:409
 msgid "_Previous Layer"
-msgstr ""
+msgstr "الطبقة السا_بقة"
 
 #: ../ui/mainmenubar.xml:414
 msgid "_Next Layer"
-msgstr ""
+msgstr "الطبقة التا_لية"
 
 #: ../ui/mainmenubar.xml:419
 msgid "_Top Layer"
-msgstr ""
+msgstr "الطبقة ال_عليا"
 
 #: ../ui/mainmenubar.xml:425
 msgid "N_ext Annotated Page"
-msgstr ""
+msgstr "الصفحة المعلّق عليها ال_تالية"
 
 #: ../ui/mainmenubar.xml:430
 msgid "P_revious Annotated Page"
-msgstr ""
+msgstr "الصفحة المعلّق عليها ال_سابقة"
 
 #: ../ui/mainmenubar.xml:437
 msgid "_Journal"
-msgstr ""
+msgstr "_جورنال"
 
 #: ../ui/mainmenubar.xml:440
 msgid "New Page _Before"
-msgstr ""
+msgstr "صفحة جديدة _قبل"
 
 #: ../ui/mainmenubar.xml:444
 msgid "New Page _After"
-msgstr ""
+msgstr "صفحة جديدة _بعد"
 
 #: ../ui/mainmenubar.xml:449
 msgid "New Page at _End"
-msgstr ""
+msgstr "صفحة جديدة في الآ_خر"
 
 #: ../ui/mainmenubar.xml:453
 msgid "Duplicate Page"
-msgstr ""
+msgstr "تكرار الصفحة"
 
 #: ../ui/mainmenubar.xml:457
 msgid "Append New PDF Pages"
-msgstr ""
+msgstr "إضافة صفحات PDF جديدة في الآخر"
 
 #: ../ui/mainmenubar.xml:461
 msgid "Configure Page Template"
@@ -3912,15 +3941,15 @@ msgstr "إعداد قالب الصفحة"
 
 #: ../ui/mainmenubar.xml:465
 msgid "_Delete Page"
-msgstr ""
+msgstr "_حذف الصفحة"
 
 #: ../ui/mainmenubar.xml:472
 msgid "New _Layer"
-msgstr ""
+msgstr "_طبقة جديدة"
 
 #: ../ui/mainmenubar.xml:477
 msgid "Delete Layer"
-msgstr ""
+msgstr "حذف الطبقة"
 
 #: ../ui/mainmenubar.xml:482
 msgid "Merge Layer Down"
@@ -3956,11 +3985,11 @@ msgstr "_ممحاة"
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
-msgstr ""
+msgstr "تحديد النص خطيًّا"
 
 #: ../ui/mainmenubar.xml:528
 msgid "Select Text In Rectangle"
-msgstr ""
+msgstr "تحديد النص بمستطيل"
 
 #: ../ui/mainmenubar.xml:534
 msgid "_Highlighter"
@@ -4057,7 +4086,7 @@ msgstr "_حذف خط أو شكل"
 
 #: ../ui/mainmenubar.xml:769
 msgid "Highlighter Opti_ons"
-msgstr ""
+msgstr "خيا_رات قلم التظليل"
 
 #: ../ui/mainmenubar.xml:809
 msgid "Select PDF Text Options"
@@ -4093,11 +4122,11 @@ msgstr "حول"
 
 #: ../resources-templates/pagetemplates.ini.in:17
 msgid "Ruled with vertical line on the right"
-msgstr ""
+msgstr "مسطر وبخط هامش على اليمين"
 
 #: ../resources-templates/pagetemplates.ini.in:42
 msgid "Graph with border"
-msgstr ""
+msgstr "رسم بياني في إطار"
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
@@ -4109,11 +4138,11 @@ msgstr "رأسي"
 
 #: ../resources-templates/toolbar.ini.in:61
 msgid "Minimal Left"
-msgstr ""
+msgstr "شريط على اليسار فقط"
 
 #: ../resources-templates/toolbar.ini.in:65
 msgid "Minimal Top"
-msgstr ""
+msgstr "شريط في الأعلى فقط"
 
 #: ../resources-templates/toolbar.ini.in:69
 msgid "Xournal++"
@@ -4121,19 +4150,19 @@ msgstr "Xournal++‎"
 
 #: ../resources-templates/toolbar.ini.in:77
 msgid "Right hand Note Taking"
-msgstr "أخذ الملاحظات باليد اليمنى"
+msgstr "كتابة ملاحظات باليد اليمنى"
 
 #: ../resources-templates/toolbar.ini.in:80
 msgid "Toolbar Left"
-msgstr ""
+msgstr "شريط أدوات على اليسار"
 
 #: ../resources-templates/toolbar.ini.in:86
 msgid "Toolbar Right"
-msgstr ""
+msgstr "شريط أدوات على اليمين"
 
 #: ../resources-templates/toolbar.ini.in:101
 msgid "Empty Toolbar"
-msgstr ""
+msgstr "شريط أدوات فارغ"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:6
 msgid "Take handwritten notes"
@@ -4157,7 +4186,7 @@ msgstr "ميزات Xournal++‎:"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:21
 msgid "Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)"
-msgstr ""
+msgstr "دعم الأقلام الرقمية واللوحات الحساسة للضغط (مثل لوحات Wacom، وHuion، وXP Pen وغيرها)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:22
 msgid "Paper backgrounds for note-taking, scratch paper, or whiteboarding"
@@ -4165,15 +4194,15 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:23
 msgid "Annotate on top of PDFs"
-msgstr ""
+msgstr "التعليق على ملفات PDF"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:24
 msgid "Select text from the background PDF, copy, highlight or underline it or strike it through"
-msgstr ""
+msgstr "حدد نصًا من ملف PDF الخلفية، وانسخه، أو ظلله، أو ارسم خطًا تحته، أو اشطب عليه"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:25
 msgid "Follow links from the background PDF"
-msgstr ""
+msgstr "اتبع الروابط من ملف PDF الخلفية"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:26
 msgid "Export to a variety of formats including SVG, PNG and PDF, both from the GUI and command line"
@@ -4181,7 +4210,7 @@ msgstr "تصدير إلى صيغ متنوعة مثل SVG وPNG وPDF، من ال
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:27
 msgid "Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)"
-msgstr ""
+msgstr "أدوات رسم مختلفة (مثل القلم وقلم التظليل) وأشكال خطوط مختلفة (مثل المتقطع والمنقط)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:28
 msgid "Shape drawing (line, arrow, circle, rectangle, spline)"
@@ -4193,7 +4222,7 @@ msgstr "استخدام مثلث أرسطو والمنقلة للقياسات أ�
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:30
 msgid "Fill shape functionality"
-msgstr ""
+msgstr "دعم ملء الأشكال"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:31
 msgid "Shape resizing and rotation"
@@ -4201,15 +4230,15 @@ msgstr "تحجيم الأشكال وتدويرها"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:32
 msgid "Rotation and grid snapping for precise alignment of objects"
-msgstr ""
+msgstr "دعم التدوير واجتذاب الشبكة للمحاذاة الدقيقة للكائنات"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:33
 msgid "Input stabilization for smoother writing/drawing"
-msgstr ""
+msgstr "دعم تثبيت الإدخال، للكتابة والرسم بسلاسة"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:34
 msgid "Text tool for adding text in different fonts, colors, and sizes"
-msgstr ""
+msgstr "أداة النصوص لإضافة النصوص بخطوط وألوان وأحجام مختلفة"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:35
 msgid "Enhanced support for image insertion"
@@ -4221,23 +4250,23 @@ msgstr "ممحاة بتهيئات عديدة"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:37
 msgid "LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting"
-msgstr ""
+msgstr "دعم LaTeX (يحتاج تثبيت LaTeX) مع قالب يمكن تخصيصه ومحرر يمكن تحجيمه ويدعم تلوين الأكواد"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:38
 msgid "Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)"
-msgstr ""
+msgstr "شريط جانبي فيه معاينات الصفحات مع ترتيب متقدم للصفحات وعلامات PDF والطبقات (والتي يمكن إخفاء أو تعديل كل منها على حدة)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:39
 msgid "Allows mapping different tools/colors etc. to stylus/mouse buttons"
-msgstr ""
+msgstr "إمكانية تعيين أدوات أو ألوان إلى أزرار الفأرة أو القلم الرقمي"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:40
 msgid "Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape"
-msgstr ""
+msgstr "دعم تخصيص شريط الأدوات، مع تهيئات عديدة، مثل تخصيصه ليناسب وضع الشاشة الأفقي أو الرأسي"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:41
 msgid "Custom color palette support using the .gpl format"
-msgstr ""
+msgstr "دعم لوحات الألوان المخصصة بصيغة gpl"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:42
 msgid "Page template definitions"
@@ -4245,7 +4274,7 @@ msgstr "تعاريف قوالب الصفحات"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:43
 msgid "Bug reporting, autosave, and auto backup tools"
-msgstr ""
+msgstr "دعم الإبلاغ عن العلل، والحفظ الآلي، وأدوات النسخ الاحتياطي الآلية"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:44
 msgid "Audio recording and playback alongside with handwritten notes"
