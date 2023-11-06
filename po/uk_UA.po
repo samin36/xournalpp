@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-06 17:24\n"
+"PO-Revision-Date: 2023-11-06 18:36\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -1676,22 +1676,22 @@ msgstr "Червоний"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Пурпуровий"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Помаранчевий"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Жовтий"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Білий"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -1904,7 +1904,7 @@ msgstr "Не вдалося створити теку: {1}\n"
 
 #: ../src/util/Util.cpp:76
 msgid "Error {1} executing system command: {2}"
-msgstr ""
+msgstr "Помилка {1} під час виконання системної команди: {2}"
 
 #: ../src/util/XojMsgBox.cpp:168
 msgid "Select another name"
@@ -1916,7 +1916,7 @@ msgstr "Замінити"
 
 #: ../src/util/XojMsgBox.cpp:187
 msgid "There was an error displaying help: {1}"
-msgstr ""
+msgstr "Виникла помилка при відображенні допомоги: {1}"
 
 #: ../src/xoj-preview-extractor/xournalpp-thumbnailer.cpp:121
 msgid "xoj-preview-extractor: call with INPUT.xoj OUTPUT.png"
@@ -1995,7 +1995,7 @@ msgstr "Закрити"
 
 #: ../ui/exportSettings.glade:36
 msgid "Resolution"
-msgstr ""
+msgstr "Роздільна здатність"
 
 #: ../ui/exportSettings.glade:39
 msgid "Width"
@@ -2186,7 +2186,7 @@ msgstr "Шрифт: "
 
 #: ../ui/latexSettings.glade:466
 msgid "Pick the Editor's Font"
-msgstr ""
+msgstr "Обрати шрифт редактора"
 
 #: ../ui/latexSettings.glade:504
 msgid "Editor settings"
@@ -2204,11 +2204,11 @@ msgstr "<b>Порожня панель</b>\n"
 
 #: ../ui/main.glade:504
 msgid "Find previous occurrence of the search string"
-msgstr ""
+msgstr "Знайти попередній екземпляр рядка"
 
 #: ../ui/main.glade:526
 msgid "Find next occurrence of the search string"
-msgstr ""
+msgstr "Знайти наступний екземпляр рядка"
 
 #: ../ui/main.glade:728
 msgid "Copy selected text"
@@ -2220,11 +2220,11 @@ msgstr "Підсвічувати виділений текст"
 
 #: ../ui/main.glade:770
 msgid "Underline selected text"
-msgstr ""
+msgstr "Підкреслити виділений текст"
 
 #: ../ui/main.glade:790
 msgid "Strikethrough selected text"
-msgstr ""
+msgstr "Закреслити виділений текст"
 
 #: ../ui/main.glade:810
 msgid "Toggle standard / region text selection"
@@ -2232,11 +2232,11 @@ msgstr ""
 
 #: ../ui/main.glade:838
 msgid "Insert Page Before"
-msgstr ""
+msgstr "Вставити сторінку до"
 
 #: ../ui/main.glade:846
 msgid "Insert Page After"
-msgstr ""
+msgstr "Вставити сторінку після"
 
 #: ../ui/main.glade:854 ../ui/main.glade:942
 msgid "Duplicate"
@@ -2280,7 +2280,7 @@ msgstr "Висота:"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Reset"
 
 #: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
@@ -2300,7 +2300,7 @@ msgstr "Змінити"
 
 #: ../ui/pageTemplate.glade:109
 msgid "Select Background Color"
-msgstr ""
+msgstr "Оберіть колір тла"
 
 #: ../ui/pageTemplate.glade:119
 msgid "Copy current page background instead"
