@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-07 15:24\n"
+"PO-Revision-Date: 2023-11-07 16:48\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -3408,11 +3408,12 @@ msgstr "<i>Перемальовувати тло PDF частіше під ча�
 #: ../ui/settings.glade:5321
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
 "Set this to 0% to always re-render on zoom."
-msgstr ""
+msgstr "Під час збільшення масштабу PDF з високою роздільною здатністю, кожне перемалювання (рендеринг) може зайняти багато часу. Встановлення великого значення дозволить знизити частоту рендерингу.\n\n"
+"Встановіть значення 0%, щоб постійно перемальовувати при зміні масштабу."
 
 #: ../ui/settings.glade:5324
 msgid "Re-render when the page's zoom changes by more than "
-msgstr ""
+msgstr "Перемальовувати, коли масштаб сторінки збільшується більше ніж на "
 
 #: ../ui/settings.glade:5337
 msgid "0.00"
