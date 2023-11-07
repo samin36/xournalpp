@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-07 09:04\n"
+"PO-Revision-Date: 2023-11-07 11:45\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -2505,7 +2505,31 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%{name}\tІм'я документу\n"
+"%a\t\t\tАбревіація дня тижня (напр. чт)\n"
+"%A\t\t\tПовна назва дня тижня (напр. четвер)\n"
+"%b\t\t\tАбревіація місяця (напр. сер)\n"
+"%B\t\t\tПовна назва місяця (напр. серпня)\n"
+"%c\t\t\tВідображення дати і часу (напр. чт, 23-сер-2001 14:55:02 +0200)\n"
+"%d\t\t\tДень місяця (01-31)\n"
+"%F\t\t\tВідображення дати (напр. 2001-08-23)\n"
+"%H\t\t\tГодини в 24h форматі (00-23)\n"
+"%I\t\t\tГодини в 12h форматі (01-12)\n"
+"%j\t\t\tНомер дня в році (001-366)\n"
+"%m\t\t\tНомер місяця (01-12)\n"
+"%M\t\t\tХвилини (00-59)\n"
+"%p\t\t\tAM або PM позначки (напр. PM)\n"
+"%S\t\t\tСекунди (00-61)\n"
+"%U\t\t\tНомер тижня, де перший тиждень розпочинається з першої неділі року (00-53)\n"
+"%w\t\t\tНомер дня тижня, де неділя дорівнює 0 (0-6)\n"
+"%W\t\t\tНомер тижня, де перший тиждень розпочинається з першого понеділка року (00-53)\n"
+"%x\t\t\tВідображення дати (напр. 23.08.01)\n"
+"%X\t\t\tВідображення часу (напр. 14:55:02 або 2:55:02 PM)\n"
+"%y\t\t\tРік, останні дві цифри (00-99)\n"
+"%Y\t\t\tРік (напр. 2001)\n"
+"%Z\t\t\tЧасова зона чи її абревіація (напр. CDT)\n"
+"%%\t\t\t%\n"
+"Неприпустимі для імені файлу символи замінюються на \"_\""
 
 #: ../ui/settings.glade:778
 msgid "Default Pdf export name"
@@ -2582,7 +2606,7 @@ msgstr ""
 
 #: ../ui/settings.glade:1133
 msgid "Buffersize"
-msgstr ""
+msgstr "Розмір буфера"
 
 #: ../ui/settings.glade:1145
 msgid "20"
@@ -2602,7 +2626,7 @@ msgstr ""
 
 #: ../ui/settings.glade:1193
 msgid "Drag"
-msgstr ""
+msgstr "Перетягнути"
 
 #: ../ui/settings.glade:1206
 msgid "0,4"
@@ -2630,7 +2654,7 @@ msgstr "0,50"
 
 #: ../ui/settings.glade:1290
 msgid "Preprocessor"
-msgstr ""
+msgstr "Препроцесор"
 
 #: ../ui/settings.glade:1321
 msgid "Cusp detection"
@@ -2638,39 +2662,39 @@ msgstr ""
 
 #: ../ui/settings.glade:1338
 msgid "Finalize the stroke"
-msgstr ""
+msgstr "Завершення штриха"
 
 #: ../ui/settings.glade:1343
 msgid "Input stabilization can create a gap at the end of your stroke. If enabled, this gap is filled."
-msgstr ""
+msgstr "Стабілізація вводу може створити розрив у кінці вашого штриха. Якщо параметр увімкнено, цей розрив буде заповнений."
 
 #: ../ui/settings.glade:1361
 msgid "Input stabilization"
-msgstr ""
+msgstr "Стабілізація введення"
 
 #: ../ui/settings.glade:1391
 msgid "Indent using spaces"
-msgstr ""
+msgstr "Відступ за допомогою пробілів"
 
 #: ../ui/settings.glade:1413
 msgid "Number of Spaces : "
-msgstr ""
+msgstr "Кількість пробілів: "
 
 #: ../ui/settings.glade:1425
 msgid "Number of spaces inserted with tab."
-msgstr ""
+msgstr "Кількість пробілів, що дорівнюються одному Tab."
 
 #: ../ui/settings.glade:1427
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../ui/settings.glade:1456
 msgid "Tab"
-msgstr ""
+msgstr "Tab"
 
 #: ../ui/settings.glade:1487
 msgid "Input System"
-msgstr ""
+msgstr "Система вводу"
 
 #: ../ui/settings.glade:1532
 msgid "<i>Define which tools will be selected if you press a mouse button. After you release the button the previously selected tool will be selected.</i>"
@@ -2682,7 +2706,7 @@ msgstr "Середня кнопка миші"
 
 #: ../ui/settings.glade:1597
 msgid "Right Mouse Button"
-msgstr ""
+msgstr "Права кнопка миші"
 
 #: ../ui/settings.glade:1613
 msgid "Mouse Buttons"
@@ -2694,11 +2718,11 @@ msgstr "Мишка"
 
 #: ../ui/settings.glade:1691
 msgid "<i>Pressure Sensitivity allows you to draw lines with different widths, depending on how much pressure you apply to the pen. If your tablet does not support this feature this setting has no effect.</i>"
-msgstr ""
+msgstr "<i>Чутливість до натиску дозволяє малювати лінії з різними ширинами, в залежності від того, який тиск ви застосовуєте до пера. Якщо ваш планшет не підтримує цієї функції, цей параметр не матиме ефекту.</i>"
 
 #: ../ui/settings.glade:1704
 msgid "Enable Pressure Sensitivity"
-msgstr ""
+msgstr "Увімкнути чутливість до натиску"
 
 #: ../ui/settings.glade:1734
 msgid "<i>Some devices report unexpectedly small or large pressures. This can be fixed by setting a minimum pressure or scaling the pressure reported by the device.</i>"
@@ -2710,23 +2734,23 @@ msgstr "Мінімальна сила натискання:"
 
 #: ../ui/settings.glade:1767
 msgid "Pressure Multiplier: "
-msgstr ""
+msgstr "Мультиплікатор сили натиску: "
 
 #: ../ui/settings.glade:1826
 msgid "Sensitivity Scale"
-msgstr ""
+msgstr "Налаштування чутливості"
 
 #: ../ui/settings.glade:1842
 msgid "Pressure Sensitivity"
-msgstr ""
+msgstr "Чутливість до натиску"
 
 #: ../ui/settings.glade:1866
 msgid "<i>With some setup, pen strokes have artifacts at their beginning. This can be avoided by ignoring the first few events/stroke-points when the pen touches the screen.</i>"
-msgstr ""
+msgstr "<i>За деяких налаштувань, перо може мати артефакти на початку штриха. Цього можна уникнути, якщо ігнорувати декілька перших подій/натискань пера.</i>"
 
 #: ../ui/settings.glade:1883
 msgid "Ignore the first"
-msgstr ""
+msgstr "Ігнорувати перші"
 
 #: ../ui/settings.glade:1901
 msgid "1"
@@ -2734,11 +2758,11 @@ msgstr "1"
 
 #: ../ui/settings.glade:1917
 msgid "events"
-msgstr "події"
+msgstr "події(-й)"
 
 #: ../ui/settings.glade:1938
 msgid "Artifact workaround"
-msgstr ""
+msgstr "Обробка артефактів"
 
 #: ../ui/settings.glade:1965
 msgid "<i>Specify the tools that will be selected if a button of the stylus is pressed or the eraser is used. After releasing the button, the previous tool will be selected.</i>"
@@ -3448,7 +3472,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5766
 msgid "Input Device"
-msgstr ""
+msgstr "Пристрої вводу"
 
 #: ../ui/settings.glade:5788
 msgid "Output Device"
@@ -3460,19 +3484,19 @@ msgstr "Аудіо-пристрої"
 
 #: ../ui/settings.glade:5848
 msgid "Sample Rate"
-msgstr ""
+msgstr "Частота дискретизації"
 
 #: ../ui/settings.glade:5859
 msgid "Gain"
-msgstr ""
+msgstr "Підсилення"
 
 #: ../ui/settings.glade:5906
 msgid "Recording Quality"
-msgstr ""
+msgstr "Якість запису"
 
 #: ../ui/settings.glade:5932
 msgid "Default Seek Time (in seconds)"
-msgstr ""
+msgstr "Час перемотування (в секундах)"
 
 #: ../ui/settings.glade:5945
 msgid "1,00"
@@ -3480,11 +3504,11 @@ msgstr "1,00"
 
 #: ../ui/settings.glade:5964
 msgid "Playback Settings"
-msgstr ""
+msgstr "Налаштування відтворення"
 
 #: ../ui/settings.glade:5978
 msgid "<i>Changes take only effect on new recordings and playbacks.</i>"
-msgstr ""
+msgstr "<i>Зміни вплинуть лише на нові записи і відтворювання.</i>"
 
 #: ../ui/settings.glade:6009
 msgid "Audio Recording"
@@ -3492,7 +3516,7 @@ msgstr "Аудіозапис"
 
 #: ../ui/settings.glade:6034
 msgid "LaTeX"
-msgstr ""
+msgstr "LaTeX"
 
 #: ../ui/settings.glade:6082
 msgid "<i>Select language (requires restart)</i>"
@@ -3512,7 +3536,7 @@ msgstr "Пристрій"
 
 #: ../ui/settingsButtonConfig.glade:44
 msgid "Disable drawing for this device"
-msgstr ""
+msgstr "Вимкнути введення для цього пристрою"
 
 #: ../ui/settingsButtonConfig.glade:125
 msgid "Eraser Type - don't change"
@@ -3528,11 +3552,11 @@ msgstr ""
 
 #: ../ui/settingsButtonConfig.glade:128
 msgid "Delete stroke"
-msgstr ""
+msgstr "Видалити лінію"
 
 #: ../ui/settingsButtonConfig.glade:143
 msgid "Stroke Type - don't change"
-msgstr ""
+msgstr "Тип штриха - не змінювати"
 
 #: ../ui/settingsButtonConfig.glade:145
 msgid "Dashed"
@@ -3540,7 +3564,7 @@ msgstr "Штрихова лінія"
 
 #: ../ui/settingsButtonConfig.glade:146
 msgid "Dash-dotted"
-msgstr ""
+msgstr "Штрих-пунктир"
 
 #: ../ui/settingsDeviceClassConfig.glade:34
 msgid "Disabled"
@@ -3592,68 +3616,68 @@ msgstr "Керування панеллю інструментів"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "_Файл"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "Відкрити"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "Останні _Документи"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "_Анотація PDF"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "Зберегти як"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "_Експорт в PDF"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "Експортувати як..."
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "Вийти"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "_Правка"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "Виділити все"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Знайти"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
-msgstr ""
+msgstr "Впорядкувати виділене"
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "Перемістити на передній план"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "Перемістити вперед"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "Перемістити назад"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "Перемістити на задній план"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
@@ -3673,11 +3697,11 @@ msgstr "_Вигляд"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "_Спарені сторінки"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "_Режим презентації"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
@@ -3901,7 +3925,7 @@ msgstr "Видалити шар"
 
 #: ../ui/mainmenubar.xml:482
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "Об'єднати з наступним шаром"
 
 #: ../ui/mainmenubar.xml:487
 msgid "Rename Layer"
