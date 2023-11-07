@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-07 14:00\n"
+"PO-Revision-Date: 2023-11-07 15:24\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -3301,15 +3301,15 @@ msgstr ""
 
 #: ../ui/settings.glade:4890
 msgid "Resizing"
-msgstr ""
+msgstr "Зміна розміру"
 
 #: ../ui/settings.glade:4926
 msgid "Rotation snapping tolerance"
-msgstr ""
+msgstr "Допуск при фіксації повороту"
 
 #: ../ui/settings.glade:4938
 msgid "Grid snapping tolerance"
-msgstr ""
+msgstr "Допуск при прив'язці до сітки"
 
 #: ../ui/settings.glade:4980
 msgid "Grid size"
@@ -3317,7 +3317,7 @@ msgstr "Розмір сітки"
 
 #: ../ui/settings.glade:5011
 msgid "Use snapping for recognized shapes"
-msgstr ""
+msgstr "Використовувати прив'язку для розпізнаних фігур"
 
 #: ../ui/settings.glade:5015
 msgid "If activated, shapes that have been recognized by the shape recognizer will be snapped to the grid automatically. This may lead to unexpected results if you have the shape recognizer turned on while writing."
@@ -3325,7 +3325,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5030
 msgid "Snapping"
-msgstr ""
+msgstr "Прив'язка"
 
 #: ../ui/settings.glade:5058
 msgid "Minimum Stroke Size"
@@ -3337,7 +3337,7 @@ msgstr "0.20"
 
 #: ../ui/settings.glade:5088
 msgid "Stroke Recognizer"
-msgstr ""
+msgstr "Розпізнавання форм"
 
 #: ../ui/settings.glade:5114
 msgid "Enable Tap action"
@@ -3349,7 +3349,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5131
 msgid "Ignore Time (ms)"
-msgstr ""
+msgstr "Час ігнорування (мс)"
 
 #: ../ui/settings.glade:5143
 msgid "How short (time)  AND...\n\n"
@@ -3376,11 +3376,11 @@ msgstr ""
 
 #: ../ui/settings.glade:5223
 msgid "Try to select object first."
-msgstr ""
+msgstr "Спочатку спробуйте вибрати об'єкт."
 
 #: ../ui/settings.glade:5228 ../ui/settings.glade:5258
 msgid "Try to select object first; if nothing selected then show floating toolbox if enabled."
-msgstr ""
+msgstr "Спробуйте спочатку вибрати об'єкт; якщо нічого не вибрано, буде показано спливаючу панель інструментів (якщо її увімкнено)."
 
 #: ../ui/settings.glade:5241
 msgid "All three conditions must be met before stroke is ignored.\n"
@@ -3389,11 +3389,11 @@ msgstr "Всі три умови повинні бути виконані, пе�
 
 #: ../ui/settings.glade:5244
 msgid "Settings:"
-msgstr ""
+msgstr "Параметри:"
 
 #: ../ui/settings.glade:5253
 msgid "Show Floating Toolbox"
-msgstr ""
+msgstr "Показувати плаваючу панель інструментів"
 
 #: ../ui/settings.glade:5272
 msgid "Action on Tool Tap"
@@ -3402,7 +3402,8 @@ msgstr ""
 #: ../ui/settings.glade:5300
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>Перемальовувати тло PDF частіше під час зміни масштабу для більшої якості.\n"
+"<b>Примітка:</b> Це не впливає на якість друку.</i>"
 
 #: ../ui/settings.glade:5321
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
@@ -4193,7 +4194,7 @@ msgstr "Графічні фігури (лінія, стрілка, коло, п�
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:29
 msgid "Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii"
-msgstr ""
+msgstr "Скористайтеся кутником та компасом для вимірів або в ролі допоміжних інструментів для малювання прямих ліній, кругових дуг тощо"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:30
 msgid "Fill shape functionality"
@@ -4253,11 +4254,11 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:44
 msgid "Audio recording and playback alongside with handwritten notes"
-msgstr ""
+msgstr "Запис звуку і відтворення в одному місці з рукописними нотатками"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:45
 msgid "Multi language support (over 20 languages supported)"
-msgstr ""
+msgstr "Багатомовна підтримка (понад 20 мовами)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:46
 msgid "Plugins using Lua scripting"
