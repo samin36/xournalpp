@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-07 11:45\n"
+"PO-Revision-Date: 2023-11-07 13:02\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -544,7 +544,7 @@ msgstr "Помилка збереження зображення #1"
 
 #: ../src/core/control/jobs/ImageExport.cpp:177
 msgid "Error while exporting the pdf background: I cannot find the pdf page number "
-msgstr ""
+msgstr "Помилка при експорті тла PDF: не вдається знайти номер сторінки в PDF "
 
 #: ../src/core/control/jobs/ImageExport.cpp:197
 msgid "Error save image #2"
@@ -560,21 +560,23 @@ msgstr "Помилка збереження файлу, не можливо ст
 
 #: ../src/core/control/latex/LatexGenerator.cpp:61
 msgid "Failed to parse LaTeX generator path: {1}"
-msgstr ""
+msgstr "Не вдалося проаналізувати шлях генератора LaTeX: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:72
 msgid "Failed to parse LaTeX generator command: {1}"
-msgstr ""
+msgstr "Не вдалося обробити команду генератора LaTeX: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:78
 msgid "Failed to find LaTeX generator program in PATH: {1}\n\n"
 "Since installation is detected within Flatpak, you need to install the Flatpak freedesktop Tex Live extension. For example, by running:\n\n"
 "$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
-msgstr ""
+msgstr "Не вдалося знайти програму для генератора LaTeX у PATH: {1}\n\n"
+"Оскільки установка програми відбувалася у вигляді Flatpak, вам необхідно встановити розширення Tex Live. Наприклад, виконавши команду:\n\n"
+"$ flatpak install flathub org.freedesktop.Sdk.Extension.texlive"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:83
 msgid "Failed to find LaTeX generator program in PATH: {1}"
-msgstr ""
+msgstr "Не вдалося знайти програму створення LaTeX у PATH: {1}"
 
 #: ../src/core/control/latex/LatexGenerator.cpp:91
 msgid "Could not save .tex file: {1}"
@@ -703,7 +705,7 @@ msgstr "На задній план"
 
 #: ../src/core/control/tools/ImageHandler.cpp:72
 msgid "Failed to load image, could not determine image size!"
-msgstr ""
+msgstr "Не вдалося завантажити зображення, не можливо визначити розмір зображення!"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:142
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
@@ -1983,7 +1985,8 @@ msgstr ""
 #: ../ui/about.glade:186
 msgid "Partially based on Xournal\n"
 "by Denis Auroux"
-msgstr ""
+msgstr "Частково базується на Xournal\n"
+"авторства Denis Auroux"
 
 #: ../ui/about.glade:218
 msgid "Website"
@@ -2046,11 +2049,11 @@ msgstr ""
 
 #: ../ui/exportSettings.glade:114
 msgid "Image quality"
-msgstr ""
+msgstr "Якість зображення"
 
 #: ../ui/exportSettings.glade:129
 msgid "Range"
-msgstr ""
+msgstr "Діапазон"
 
 #: ../ui/exportSettings.glade:143
 msgid "All pages"
@@ -2819,7 +2822,7 @@ msgstr ""
 #: ../ui/settings.glade:2260 ../ui/settings.glade:2841
 #: ../ui/settingsDeviceClassConfig.glade:39
 msgid "Touchscreen"
-msgstr ""
+msgstr "Сенсорний екран"
 
 #: ../ui/settings.glade:2287
 msgid "<i>If your hardware does not support hand recognition, Xournal++ can disable your touchscreen when your pen is near the screen.</i>"
@@ -2972,7 +2975,7 @@ msgstr ""
 
 #: ../ui/settings.glade:3125
 msgid "Icon Theme"
-msgstr ""
+msgstr "Тема іконок"
 
 #: ../ui/settings.glade:3140
 msgid "Color"
@@ -2992,11 +2995,11 @@ msgstr "Кольори"
 
 #: ../ui/settings.glade:3191
 msgid "Global"
-msgstr ""
+msgstr "Загальні"
 
 #: ../ui/settings.glade:3224
 msgid "Cursor icon for pen"
-msgstr ""
+msgstr "Курсор для пера"
 
 #: ../ui/settings.glade:3239
 msgctxt "stylus cursor uses no icon"
@@ -3006,7 +3009,7 @@ msgstr "Немає іконки"
 #: ../ui/settings.glade:3240
 msgctxt "stylus cursor uses a small dot"
 msgid "Small dot icon"
-msgstr ""
+msgstr "Маленька точка"
 
 #: ../ui/settings.glade:3241
 msgctxt "stylus cursor uses a big pen icon"
@@ -3024,11 +3027,11 @@ msgstr "Підсвічувати позицію курсора"
 
 #: ../ui/settings.glade:3272
 msgid "Draw a transparent circle around the cursor"
-msgstr ""
+msgstr "Намалювати напівпрозоре коло навколо курсору"
 
 #: ../ui/settings.glade:3290 ../ui/settings.glade:3433
 msgid "Choose the color to use for \"Highlight cursor position\""
-msgstr ""
+msgstr "Оберіть колір підсвічування позиції курсора"
 
 #: ../ui/settings.glade:3304
 msgid "Circle Color"
@@ -3041,7 +3044,7 @@ msgstr "пікс."
 
 #: ../ui/settings.glade:3356
 msgid "Radius"
-msgstr ""
+msgstr "Радіус"
 
 #: ../ui/settings.glade:3392
 msgid "30"
@@ -3065,7 +3068,7 @@ msgstr "Показати бічну панель з правого боку"
 
 #: ../ui/settings.glade:3519
 msgid "Show vertical scrollbar on the left side"
-msgstr ""
+msgstr "Показувати вертикальну прокрутку ліворуч"
 
 #: ../ui/settings.glade:3538
 msgid "Left / Right-Handed"
@@ -3105,7 +3108,7 @@ msgstr "Вимкнути зникнення смуги прокрутки"
 
 #: ../ui/settings.glade:3675
 msgid "Scrollbars"
-msgstr ""
+msgstr "Смуги прокрутки"
 
 #: ../ui/settings.glade:3728
 msgid "When an element is selected and moved past the visible portion of the canvas, pan the screen by an amount equal to this percentage of the visible part of the canvas. "
@@ -3130,7 +3133,7 @@ msgstr ""
 #: ../ui/settings.glade:3781 ../ui/settings.glade:3855
 #: ../ui/mainmenubar.xml:352
 msgid "Show Menubar"
-msgstr ""
+msgstr "Показувати стрічку меню"
 
 #: ../ui/settings.glade:3796 ../ui/settings.glade:3870
 msgid "Show Toolbar"
@@ -3151,11 +3154,11 @@ msgstr "На повний екран"
 
 #: ../ui/settings.glade:3920
 msgid "Select toolbar:"
-msgstr ""
+msgstr "Оберіть панель інструментів:"
 
 #: ../ui/settings.glade:3953
 msgid "Presentation Mode"
-msgstr ""
+msgstr "Режим презентації"
 
 #: ../ui/settings.glade:3982
 msgid "Pre-load pages before"
@@ -3203,7 +3206,7 @@ msgstr ""
 
 #: ../ui/settings.glade:4319
 msgid "The unit of the ruler is cm"
-msgstr ""
+msgstr "Одиниця виміру лінійки - см"
 
 #: ../ui/settings.glade:4340
 msgid "Display DPI Calibration"
@@ -3459,7 +3462,7 @@ msgstr ""
 
 #: ../ui/settings.glade:5680 ../ui/settings.glade:5716
 msgid "Storage Folder"
-msgstr ""
+msgstr "Місце зберігання"
 
 #: ../ui/settings.glade:5695
 msgid "Select Folder"
@@ -3981,7 +3984,7 @@ msgstr "_Інструмент за замовчуванням"
 
 #: ../ui/mainmenubar.xml:559
 msgid "Drawing Type"
-msgstr ""
+msgstr "Режим"
 
 #: ../ui/mainmenubar.xml:561
 msgid "_Shape Recognizer"
@@ -4046,15 +4049,15 @@ msgstr "Параметри _гумки"
 
 #: ../ui/mainmenubar.xml:752
 msgid "_standard"
-msgstr ""
+msgstr "_стандартний"
 
 #: ../ui/mainmenubar.xml:757
 msgid "_whiteout"
-msgstr ""
+msgstr "_наскрізний"
 
 #: ../ui/mainmenubar.xml:762
 msgid "_delete strokes"
-msgstr ""
+msgstr "_видалення штрихів"
 
 #: ../ui/mainmenubar.xml:769
 msgid "Highlighter Opti_ons"
@@ -4086,7 +4089,7 @@ msgstr "Д_опомога"
 
 #: ../ui/mainmenubar.xml:859
 msgid "Help"
-msgstr ""
+msgstr "Допомога"
 
 #: ../ui/mainmenubar.xml:863
 msgid "About"
