@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-30 14:40+0000\n"
-"PO-Revision-Date: 2023-11-07 13:02\n"
+"PO-Revision-Date: 2023-11-07 14:00\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -608,7 +608,7 @@ msgstr "Лінійно з вертикальною лінією"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:32
 msgid "Staves"
-msgstr ""
+msgstr "Нотний стан"
 
 #: ../src/core/control/pagetype/PageTypeHandler.cpp:33
 msgid "Graph"
@@ -709,23 +709,23 @@ msgstr "Не вдалося завантажити зображення, не м
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:142
 msgid "The file is no valid .xopp file (Mimetype missing): \"{1}\""
-msgstr ""
+msgstr "Некоректний .xopp файл (відсутній mimetype): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:150
 msgid "The file is no valid .xopp file (Mimetype wrong): \"{1}\""
-msgstr ""
+msgstr "Некоректний .xopp файл (помилковий mimetype): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:159
 msgid "The file is no valid .xopp file (Version missing): \"{1}\""
-msgstr ""
+msgstr "Некоректний .xopp файл (не вказана версія): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:172
 msgid "The file is not a valid .xopp file (Version string corrupted): \"{1}\""
-msgstr ""
+msgstr "Некоректний .xopp файл (невірно вказана версія): \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:181
 msgid "Failed to open content.xml in zip archive: \"{1}\""
-msgstr ""
+msgstr "Не вдалося відкрити content.xml в zip-архіві: \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:189
 msgid "Could not open file: \"{1}\""
@@ -4185,11 +4185,11 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:27
 msgid "Different drawing tools (e.g. pen, highlighter) and stroke styles (e.g. solid, dotted)"
-msgstr ""
+msgstr "Різні інструменти малювання (наприклад, перо, маркер) та стилі штриха (наприклад, суцільна, пунктирна)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:28
 msgid "Shape drawing (line, arrow, circle, rectangle, spline)"
-msgstr ""
+msgstr "Графічні фігури (лінія, стрілка, коло, прямокутник, сплайн)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:29
 msgid "Use the set-square and compass tools for measurements or as a guide for drawing straight lines, circular arcs and radii"
