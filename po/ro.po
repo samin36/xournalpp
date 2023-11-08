@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-08 18:47\n"
+"PO-Revision-Date: 2023-11-08 20:10\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -396,7 +396,7 @@ msgstr "Deschide PDF-ul ca atașat\n"
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr "Salvează fișierul xopp-file cu fondul PDF specificat ca fișier"
+msgstr "Salvează fișierul xopp cu fondul PDF specificat ca fișier"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
