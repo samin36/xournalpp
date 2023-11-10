@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-08 17:32\n"
+"PO-Revision-Date: 2023-11-10 17:57\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
@@ -170,7 +170,7 @@ msgstr "حفظ"
 
 #: ../src/core/control/Control.cpp:1934
 msgid "Discard"
-msgstr "إغلاق بدون حفظ"
+msgstr "إغلاق بغير حفظ"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document…"
@@ -396,32 +396,32 @@ msgstr "افتح ملف PDF في وضع الإرفاق\n"
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr ""
+msgstr "احفظ ملف xopp بخلفية PDF المحددة في المعطى FILE"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
-msgstr "تصدير «ملف» كـPDF"
+msgstr "تصدير المعطى FILE بصيغة PDF"
 
 #: ../src/core/control/XournalMain.cpp:714
 msgid "Export FILE as image files (one per page)\n"
 "                                 Guess the output format from the extension of IMGFILE\n"
 "                                 Supported formats: .png, .svg"
-msgstr "تصدير الملف كملفات صور (صورة واحدة لكل صفحة)\n"
-"                                 تخمين صيغة التصدير من امتداد الملف\n"
+msgstr "تصدير المعطى FILE إلى ملفات صور (صورة واحدة لكل صفحة)\n"
+"                                 يخمّن صيغة التصدير من امتداد الملف\n"
 "                                 الصيغ المدعومة: png و svg"
 
 #: ../src/core/control/XournalMain.cpp:719
 msgid "Export without background\n"
 "                                 The exported file has transparent or white background,\n"
 "                                 depending on what its format supports\n"
-msgstr "تصدير بدون خلفية\n"
+msgstr "تصدير بغير خلفية\n"
 "                                 ستكون خلفية الملف المصدَّر شفافة أو بيضاء،\n"
 "                                 اعتمادا على ما تدعمه الصيغة\n"
 
 #: ../src/core/control/XournalMain.cpp:724
 msgid "Export without ruling\n"
 "                                 The exported file has no paper ruling\n"
-msgstr "تصدير بدون تسطير\n"
+msgstr "تصدير بغير تسطير\n"
 "                                 الملف المصدَّر لن يكون ورقه مسطَّرا\n"
 
 #: ../src/core/control/XournalMain.cpp:728
@@ -440,7 +440,7 @@ msgstr "تصدير الطبقات تدريجيا\n"
 msgid "Only export the pages specified by RANGE (e.g. \"2-3,5,7-\")\n"
 "                                 No effect without -p/--create-pdf or -i/--create-img"
 msgstr "تصدير الصفحات التي يحددها «المدى» فقط (مثال: «‪2-3,5,7-‬»)\n"
-"                                 لا تأثير بدون ‪-p/--create-pdf‬ أو ‪-i/--create-img‬"
+"                                 لا تأثير بغير ‪-p/--create-pdf‬ أو ‪-i/--create-img‬"
 
 #: ../src/core/control/XournalMain.cpp:739
 msgid "On export, only export the layers specified by RANGE (e.g. \"2-3,5,7-\")\n"
@@ -451,24 +451,24 @@ msgstr "عند التصدير، قم بتصدير الطبقات التي يحد
 #: ../src/core/control/XournalMain.cpp:743
 msgid "Set DPI for PNG exports. Default is 300\n"
 "                                 No effect without -i/--create-img=foo.png"
-msgstr "تعيين دقة (DPI) التصدير إلى PNG. الدقة المبدئية هي 300\n"
-"                                 لا تأثير بدون ‪-i/--create-img=foo.png‬"
+msgstr "تعيين دقة DPI عند التصدير إلى PNG. الدقة المبدئية هي 300\n"
+"                                 لا تأثير بغير ‪-i/--create-img=foo.png‬"
 
 #: ../src/core/control/XournalMain.cpp:747
 msgid "Set page width for PNG exports\n"
 "                                 No effect without -i/--create-img=foo.png\n"
 "                                 Ignored if --export-png-dpi is used"
 msgstr "تعيين عرض الصفحة عند التصدير إلى PNG\n"
-"                                 لا تأثير بدون ‪-i/--create-img=foo.png‬\n"
-"                                 يتم إهماله عند استخدام ‪--export-png-dpi‬"
+"                                 لا تأثير بغير ‪-i/--create-img=foo.png‬\n"
+"                                 يُهمل عند استخدام ‪--export-png-dpi‬"
 
 #: ../src/core/control/XournalMain.cpp:753
 msgid "Set page height for PNG exports\n"
 "                                 No effect without -i/--create-img=foo.png\n"
 "                                 Ignored if --export-png-dpi or --export-png-width is used"
 msgstr "تعيين ارتفاع الصفحة عند التصدير إلى PNG\n"
-"                                 لا تأثير بدون ‪-i/--create-img=foo.png‬\n"
-"                                 يتم إهماله عند استخدام ‪--export-png-dpi‬ أو ‪--export-png-width‬"
+"                                 لا تأثير بغير ‪-i/--create-img=foo.png‬\n"
+"                                 يُهمل عند استخدام ‪--export-png-dpi‬ أو ‪--export-png-width‬"
 
 #: ../src/core/control/XournalMain.cpp:758
 msgid "Advanced export options"
@@ -2041,7 +2041,7 @@ msgstr "لا شيء"
 
 #: ../ui/exportSettings.glade:56
 msgid "No ruling"
-msgstr "بدون تسطير"
+msgstr "بغير تسطير"
 
 #: ../ui/exportSettings.glade:59
 msgid "All"
@@ -2088,7 +2088,7 @@ msgstr "dpi"
 #. Keep the order the same as in listBackgroundType and use the translation of these types in parentheses.
 #: ../ui/exportSettings.glade:321
 msgid "Export the document without any background (None) or with PDF and image backgrounds only (No ruling) or with all background types (All)."
-msgstr "تصدير المستند بدون أي خلفية (لا شيء) أو مع خلفيات PDF والصور فقط (بدون تسطير) أو مع جميع أنواع الخلفيات (الكل)."
+msgstr "تصدير المستند بغير أي خلفية («لا شيء») أو مع خلفيات PDF والصور فقط («بغير تسطير») أو مع جميع أنواع الخلفيات («الكل»)."
 
 #: ../ui/exportSettings.glade:336
 msgid "Export layers progressively"
@@ -2621,7 +2621,7 @@ msgid "Drag LEFT from start point acts like shift key is being held.\n"
 msgstr "السحب <b>لليسار</b> من نقطة البداية يمثل الضغط على زر Shift مع الإبقاء عليه مضغوطا.\n"
 "السحب <b>للأعلى</b> من نقطة البداية يمثل الضغط على زر Ctrl مع الإبقاء عليه مضغوطا.\n\n"
 "نصف قطر التحديد: نصف القطر الذي عنده هذان الزران سيظلان «مضغوطين» حتى إنهاء الرسم.\n\n"
-"<i>مفيد للتعامل بدون لوحة مفاتيح.</i>"
+"<i>مفيد للاستخدام بغير لوحة مفاتيح.</i>"
 
 #: ../ui/settings.glade:1009
 msgid "Merge button events with stylus tip events\n"
@@ -3333,7 +3333,7 @@ msgid "Drag LEFT from start point acts like shift key is being held.\n"
 msgstr "السحب <b>لليسار</b> من نقطة البداية يمثل الضغط على زر Shift مع الإبقاء عليه مضغوطا.\n"
 "السحب <b>للأعلى</b> من نقطة البداية يمثل الضغط على زر Ctrl مع الإبقاء عليه مضغوطا.\n\n"
 "نصف قطر التحديد: نصف القطر الذي عنده هذان الزران سيظلان «مضغوطين» حتى إنهاء الرسم.\n\n"
-"<i>مفيد للتعامل بدون لوحة مفاتيح.</i>"
+"<i>مفيد للاستخدام بغير لوحة مفاتيح.</i>"
 
 #: ../ui/settings.glade:4857
 msgid "Drawing Tools - Set Modifiers by Draw Direction (Experimental)"
