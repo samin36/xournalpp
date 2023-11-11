@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-11 04:28\n"
+"PO-Revision-Date: 2023-11-11 05:59\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -139,7 +139,7 @@ msgstr "Xournal++ファイル"
 
 #: ../src/core/control/Control.cpp:1772
 msgid "Select font"
-msgstr ""
+msgstr "フォントを選択"
 
 #: ../src/core/control/Control.cpp:1787
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
@@ -321,7 +321,7 @@ msgstr "前回Xournal++がクラッシュしました。最後に編集したフ
 
 #: ../src/core/control/XournalMain.cpp:226
 msgid "Recovery file detected"
-msgstr ""
+msgstr "リカバリファイルが検出されました"
 
 #: ../src/core/control/XournalMain.cpp:227
 msgid "Delete file"
@@ -420,7 +420,8 @@ msgstr "背景なしでエクスポート\n"
 #: ../src/core/control/XournalMain.cpp:724
 msgid "Export without ruling\n"
 "                                 The exported file has no paper ruling\n"
-msgstr ""
+msgstr "罫線なしでエクスポート\n"
+"                                 エクスポートされたファイルには紙の罫線がありません\n"
 
 #: ../src/core/control/XournalMain.cpp:728
 msgid "Export layers progressively\n"
@@ -486,7 +487,7 @@ msgstr "PDFでエクスポート"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "エクスポート(_E)"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -821,7 +822,7 @@ msgstr ""
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:1047
 msgid "xoj-File: {1}"
-msgstr ""
+msgstr "xoj-File: {1}"
 
 #: ../src/core/control/xojfile/LoadHandler.cpp:1048
 msgid "Wrong number of pressure values, got {1}, expected {2}"
@@ -1012,7 +1013,7 @@ msgstr "フローティングツールボックス (実験的)"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:99
 msgid "Select Text from pdf"
-msgstr ""
+msgstr "PDFからテキストを選択"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:100
 msgid "Select Area Text from pdf"
@@ -1128,7 +1129,7 @@ msgstr ""
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:33
 msgid "Highlighter Options"
-msgstr ""
+msgstr "蛍光ペンのオプション"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:34
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:38
@@ -1137,11 +1138,11 @@ msgstr ""
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:37
 msgid "Pen Options"
-msgstr ""
+msgstr "ペンのオプション"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:41
 msgid "PDF Text Options"
-msgstr ""
+msgstr "PDFテキストオプション"
 
 #: ../src/core/gui/dialog/SelectOpacityDialog.cpp:42
 msgid "PDF Text Marker"
@@ -1660,57 +1661,57 @@ msgstr "ズームスライダー"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "黒"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "緑"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "水色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "薄緑"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "青"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "灰色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "赤"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "マゼンタ"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "オレンジ"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "黄"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "白"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2011,11 +2012,11 @@ msgstr "管理者"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: ../ui/exportSettings.glade:36
 msgid "Resolution"
-msgstr ""
+msgstr "解像度"
 
 #: ../ui/exportSettings.glade:39
 msgid "Width"
@@ -2023,7 +2024,7 @@ msgstr "幅"
 
 #: ../ui/exportSettings.glade:42
 msgid "Height"
-msgstr ""
+msgstr "高さ"
 
 #: ../ui/exportSettings.glade:53 ../ui/settings.glade:253
 #: ../ui/settings.glade:270 ../ui/settings.glade:3578
@@ -2032,7 +2033,7 @@ msgstr "なし"
 
 #: ../ui/exportSettings.glade:56
 msgid "No ruling"
-msgstr ""
+msgstr "罫線なし"
 
 #: ../ui/exportSettings.glade:59
 msgid "All"
@@ -2045,7 +2046,8 @@ msgstr "エクスポート"
 #: ../ui/exportSettings.glade:91
 msgid "<b>Document export settings</b>\n"
 "Set export parameters"
-msgstr ""
+msgstr "<b>ドキュメントのエクスポート設定</b>\n"
+"エクスポート時の値を設定する"
 
 #: ../ui/exportSettings.glade:114
 msgid "Image quality"
@@ -2065,7 +2067,7 @@ msgstr "現在のページ"
 
 #: ../ui/exportSettings.glade:175
 msgid "Pages:"
-msgstr ""
+msgstr "ページ:"
 
 #: ../ui/exportSettings.glade:209
 msgid "<i>Example:</i> 1-3 or 1,3,5-7 etc."
@@ -2122,7 +2124,7 @@ msgstr "有効にした場合、必要なLaTeXパッケージがインストー�
 
 #: ../ui/latexSettings.glade:45
 msgid "General LaTeX tool settings"
-msgstr ""
+msgstr "LaTeXツールの一般設定"
 
 #: ../ui/latexSettings.glade:73
 msgid "Default LaTeX Text"
@@ -2134,7 +2136,7 @@ msgstr ""
 
 #: ../ui/latexSettings.glade:104
 msgid "Global template file path"
-msgstr ""
+msgstr "全体のテンプレートのパス"
 
 #: ../ui/latexSettings.glade:116
 msgid "The following strings will be substituted in the global template file when running the LaTeX tool:"
