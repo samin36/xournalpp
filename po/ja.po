@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-08 17:32\n"
+"PO-Revision-Date: 2023-11-11 04:28\n"
 "Last-Translator: \n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
@@ -364,14 +364,16 @@ msgstr "申し訳ありません、Xournal++ は一度に 1 つのファイル�
 
 #: ../src/core/control/XournalMain.cpp:471
 msgid "File {1} does not exist."
-msgstr ""
+msgstr "ファイル {1} は存在しません。"
 
 #: ../src/core/control/XournalMain.cpp:475
 #: ../src/core/control/XournalMain.cpp:573
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "ファイルシステムエラー: {1}\n"
+"申し訳ございません、Xournal++はファイル {2} を開くことができません。\n"
+"ローカルディレクトリにファイルをコピーすることを検討してください。"
 
 #: ../src/core/control/XournalMain.cpp:691
 msgid "Jump to Page (first Page: 1)"
@@ -388,11 +390,12 @@ msgstr "このセッションのオーディオを無効にする"
 #: ../src/core/control/XournalMain.cpp:699
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "添付モードでPDFを開く\n"
+"                                 PDFがファイルが指定されていない場合は無視されます。"
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr ""
+msgstr "xopp-fileを指定した背景PDF付きでファイルとして保存する"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
