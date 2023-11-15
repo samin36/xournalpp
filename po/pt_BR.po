@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-08 17:32\n"
+"PO-Revision-Date: 2023-11-15 18:12\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -139,7 +139,7 @@ msgstr "Arquivos Xournal++"
 
 #: ../src/core/control/Control.cpp:1772
 msgid "Select font"
-msgstr ""
+msgstr "Selecionar fonte"
 
 #: ../src/core/control/Control.cpp:1787
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
