@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-15 18:12\n"
+"PO-Revision-Date: 2023-11-15 19:15\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -281,11 +281,11 @@ msgstr "Por favor, deletar o arquivo manualmente"
 
 #: ../src/core/control/XournalMain.cpp:186
 msgid "There is a recent errorlogfile from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Existe um arquivo recente com registro de erro do Xournal++. Por favor, crie um relato de erro, assim o erro poderá ser corrigido."
 
 #: ../src/core/control/XournalMain.cpp:188
 msgid "There are recent errorlogfiles from Xournal++. Please file a Bugreport, so the bug may be fixed."
-msgstr ""
+msgstr "Existem arquivos recentes com registro de erro do Xournal++. Por favor, crie um relato de erro, assim os erros poderão ser corrigidos."
 
 #: ../src/core/control/XournalMain.cpp:191
 msgid "The most recent log file name: {1}"
@@ -293,7 +293,7 @@ msgstr "O nome do registro de arquivo mais recente: {1}"
 
 #: ../src/core/control/XournalMain.cpp:193
 msgid "To prevent this popup from reappearing, simply delete the errorlogfiles."
-msgstr ""
+msgstr "Para impedir que este popup reapareça, simplesmente exclua os arquivos de registro de erro."
 
 #: ../src/core/control/XournalMain.cpp:196
 msgid "File Bug Report"
@@ -364,14 +364,16 @@ msgstr "Desculpa, o Xournal++ só consegue abrir um arquivo por vez.\n"
 
 #: ../src/core/control/XournalMain.cpp:471
 msgid "File {1} does not exist."
-msgstr ""
+msgstr "Arquivo {1} não existe."
 
 #: ../src/core/control/XournalMain.cpp:475
 #: ../src/core/control/XournalMain.cpp:573
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "Erro no sistema de arquivos: {1}\n"
+"Desculpe, Xournal++ não pode abrir o arquivo: {2}\n"
+"Considere copiar o arquivo para um diretório local."
 
 #: ../src/core/control/XournalMain.cpp:691
 msgid "Jump to Page (first Page: 1)"
@@ -388,11 +390,12 @@ msgstr "Desabilitar áudio para essa sessão"
 #: ../src/core/control/XournalMain.cpp:699
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "Abrir PDF no modo de anexação\n"
+"                                 Ignorado se nenhum arquivo PDF for especificado."
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr ""
+msgstr "Salvar arquivo xopp com o PDF de fundo especificado como ARQUIVO"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
@@ -488,7 +491,7 @@ msgstr "Exportar PDF"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "_Exportar"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -1646,7 +1649,7 @@ msgstr "Página"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:12
 msgid "PDF text selection dropdown menu"
-msgstr ""
+msgstr "Menu suspenso de seleção de texto PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
 msgid "Select PDF Text In Rectangle"
@@ -1654,7 +1657,7 @@ msgstr "Selecionar Texto do PDF Em Retângulo"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
 msgid "Selection dropdown menu"
-msgstr ""
+msgstr "Menu suspenso de seleção"
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:133
 msgid "Zoom Slider"
@@ -1663,57 +1666,57 @@ msgstr "Controle deslizante de zoom"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "Preto"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "Azul claro"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "Verde claro"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "Azul"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "Cinza"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "Vermelho"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Laranja"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Amarelo"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Branco"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2423,7 +2426,8 @@ msgstr "Preferências Xournal++"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>Se o documento já foi salvo, você pode encontrá-lo na mesma pasta com a extensão .autosave.xoj\n"
+"Se o arquivo ainda não foi salvo, você pode encontrá-lo em ~/.cache/xournalpp/autosaves</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -2474,7 +2478,30 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%a\t\tNome abreviado do dia da semana (por exemplo, Qui.)\n"
+"%A\t\tNome completo do dia da semana (por exemplo, Quinta-feira)\n"
+"%b\t\tNome abreviado do mês (por exemplo, Ago.)\n"
+"%B\t\tNome completo do mês (por exemplo, Agosto)\n"
+"%c\t\tRepresentação da data e horário (por exemplo, Qui. 23 de agosto 14:55:02 2001)\n"
+"%d\t\tDia do mês (01-31)\n"
+"%F\t\tRepresentação da data (exemplo, 23-08-2001)\n"
+"%H\t\tHora em formato de 24h (00-23)\n"
+"%I\t\tHora em formato de 12h (01-12)\n"
+"%j\t\tDia do ano (001-366)\n"
+"%m\t\tMês como um número decimal (01-12)\n"
+"%M\t\tMinuto (00-59)\n"
+"%p\t\tDesignação para manhã (AM) ou tarde (PM) (exemplo, PM)\n"
+"%S\t\tSegundo (00-61)\n"
+"%U\t\tNúmero da semana com o primeiro domingo como primeiro dia da semana (00-53)\n"
+"%w\t\tDia na semana como número decimal, com o domingo indicando 0 (0-6)\n"
+"%W\t\tNúmero da semana com a primeira segunda-feira como primeiro dia da semana (00-53)\n"
+"%x\t\tRepresentação de data (exemplo, 23/08/01)\n"
+"%X\t\tRepresentação de horário (por exemplo, 14:55:02)\n"
+"%y\t\tAno, com os últimos dois dígitos (00-99)\n"
+"%Y\t\tAno (exemplo, 2001)\n"
+"%Z\t\tNome ou abreviação do fuso horário (por exemplo, CDT)\n"
+"%% \tO símbolo %\n"
+"Símbolos ilegais são substituídos por \"_\""
 
 #: ../ui/settings.glade:585 ../ui/settings.glade:754
 msgid "Available Placeholders"
@@ -2514,7 +2541,31 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%{name} Nome do arquivo exportado\n"
+"%a\t\tNome abreviado do dia da semana (por exemplo, Qui.)\n"
+"%A\t\tNome completo do dia da semana (por exemplo, Quinta-feira)\n"
+"%b\t\tNome abreviado do mês (por exemplo, Ago.)\n"
+"%B\t\tNome completo do mês (por exemplo, Agosto)\n"
+"%c\t\tRepresentação da data e horário (por exemplo, Qui. 23 de agosto 14:55:02 2001)\n"
+"%d\t\tDia do mês (01-31)\n"
+"%F\t\tRepresentação da data (exemplo, 23-08-2001)\n"
+"%H\t\tHora em formato de 24h (00-23)\n"
+"%I\t\tHora em formato de 12h (01-12)\n"
+"%j\t\tDia do ano (001-366)\n"
+"%m\t\tMês como um número decimal (01-12)\n"
+"%M\t\tMinuto (00-59)\n"
+"%p\t\tDesignação para manhã (AM) ou tarde (PM) (exemplo, PM)\n"
+"%S\t\tSegundo (00-61)\n"
+"%U\t\tNúmero da semana com o primeiro domingo como primeiro dia da semana (00-53)\n"
+"%w\t\tDia na semana como número decimal, com o domingo indicando 0 (0-6)\n"
+"%W\t\tNúmero da semana com a primeira segunda-feira como primeiro dia da semana (00-53)\n"
+"%x\t\tRepresentação de data (exemplo, 23/08/01)\n"
+"%X\t\tRepresentação de horário (por exemplo, 14:55:02)\n"
+"%y\t\tAno, com os últimos dois dígitos (00-99)\n"
+"%Y\t\tAno (exemplo, 2001)\n"
+"%Z\t\tNome ou abreviação do fuso horário (por exemplo, CDT)\n"
+"%% \tO símbolo %\n"
+"Símbolos ilegais são substituídos por \"_\""
 
 #: ../ui/settings.glade:778
 msgid "Default Pdf export name"
@@ -2664,23 +2715,23 @@ msgstr "Estabilização de entrada"
 
 #: ../ui/settings.glade:1391
 msgid "Indent using spaces"
-msgstr ""
+msgstr "Indentar usando espaços"
 
 #: ../ui/settings.glade:1413
 msgid "Number of Spaces : "
-msgstr ""
+msgstr "Quantidade de espaços: "
 
 #: ../ui/settings.glade:1425
 msgid "Number of spaces inserted with tab."
-msgstr ""
+msgstr "Quantidade de espaços inseridos com uma tabulação."
 
 #: ../ui/settings.glade:1427
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../ui/settings.glade:1456
 msgid "Tab"
-msgstr ""
+msgstr "Tabulação"
 
 #: ../ui/settings.glade:1487
 msgid "Input System"
@@ -2870,7 +2921,8 @@ msgstr "Ativar gestos de zoom (requer reinicialização)"
 #: ../ui/settings.glade:2620
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
 "This setting can make it easier to draw with touch. "
-msgstr ""
+msgstr "Ao desenhar com toque, gestos com dois dedos, destinados a mover a visualização, podem gerar um zoom, causando problemas de desempenho. \n"
+"Esta configuração pode tornar mais fácil desenhar com toque. "
 
 #: ../ui/settings.glade:2626
 msgid "Start zooming after a distance "
@@ -3632,31 +3684,31 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "Salvar como"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "_Exportar como PDF"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "Exportar como..."
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "_Editar"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "Selecionar tudo"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Localizar"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
@@ -3676,7 +3728,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "Enviar para trás"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
@@ -3688,7 +3740,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "Preferências"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
@@ -3896,63 +3948,63 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:449
 msgid "New Page at _End"
-msgstr ""
+msgstr "Nova Página no _Final"
 
 #: ../ui/mainmenubar.xml:453
 msgid "Duplicate Page"
-msgstr ""
+msgstr "Duplicar Página"
 
 #: ../ui/mainmenubar.xml:457
 msgid "Append New PDF Pages"
-msgstr ""
+msgstr "Acrescentar novas páginas PDF"
 
 #: ../ui/mainmenubar.xml:461
 msgid "Configure Page Template"
-msgstr ""
+msgstr "Configurar Modelo de Página"
 
 #: ../ui/mainmenubar.xml:465
 msgid "_Delete Page"
-msgstr ""
+msgstr "_Excluir Página"
 
 #: ../ui/mainmenubar.xml:472
 msgid "New _Layer"
-msgstr ""
+msgstr "Nova _camada"
 
 #: ../ui/mainmenubar.xml:477
 msgid "Delete Layer"
-msgstr ""
+msgstr "Excluir camada"
 
 #: ../ui/mainmenubar.xml:482
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "Mesclar camada para abaixo"
 
 #: ../ui/mainmenubar.xml:487
 msgid "Rename Layer"
-msgstr ""
+msgstr "Renomear camada"
 
 #: ../ui/mainmenubar.xml:494
 msgid "Paper _Format"
-msgstr ""
+msgstr "_Formato do Papel"
 
 #: ../ui/mainmenubar.xml:498
 msgid "Paper _Color"
-msgstr ""
+msgstr "Cor do Papel"
 
 #: ../ui/mainmenubar.xml:502
 msgid "Paper B_ackground"
-msgstr ""
+msgstr "Fundo do papel"
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
-msgstr ""
+msgstr "_Ferramentas"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
-msgstr ""
+msgstr "_Caneta"
 
 #: ../ui/mainmenubar.xml:516
 msgid "_Eraser"
-msgstr ""
+msgstr "_Borracha"
 
 #: ../ui/mainmenubar.xml:522
 msgid "Select Linear Text"
