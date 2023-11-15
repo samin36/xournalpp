@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-08 17:20+0000\n"
-"PO-Revision-Date: 2023-11-08 17:32\n"
+"PO-Revision-Date: 2023-11-15 08:32\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
@@ -41,7 +41,7 @@ msgstr "Конфигурация панели инструментов \"{1}\" �
 
 #: ../src/core/control/Control.cpp:569
 msgid "Yes"
-msgstr ""
+msgstr "Да"
 
 #: ../src/core/control/Control.cpp:569
 msgid "No"
@@ -139,7 +139,7 @@ msgstr "Xournal++ файлы"
 
 #: ../src/core/control/Control.cpp:1772
 msgid "Select font"
-msgstr ""
+msgstr "Выбрать шрифт"
 
 #: ../src/core/control/Control.cpp:1787
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
@@ -1681,37 +1681,37 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "Голубой"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "Серый"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "Красный"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Пурпурный"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Оранжевый"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Жёлтый"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Белый"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2014,7 +2014,7 @@ msgstr "Авторы"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: ../ui/exportSettings.glade:36
 msgid "Resolution"
@@ -2098,7 +2098,7 @@ msgstr "Если включено, слои каждой страницы буд
 #: ../ui/selectOpacity.glade:134 ../ui/settings.glade:6198
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "OK"
 
 #: ../ui/goto.glade:23
 msgid "Go to Page"
@@ -2130,7 +2130,7 @@ msgstr "Общие настройки инструмента LaTeX"
 
 #: ../ui/latexSettings.glade:73
 msgid "Default LaTeX Text"
-msgstr ""
+msgstr "Текст LaTeX по умолчанию"
 
 #: ../ui/latexSettings.glade:102
 msgid "The LaTeX file to use as a template for the LaTeX tool."
@@ -2304,7 +2304,7 @@ msgstr "Высота:"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Сброс"
 
 #: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
@@ -2364,7 +2364,7 @@ msgstr "Выбрать PDF страницу"
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Плагины"
 
 #: ../ui/plugin.glade:80
 msgid "Plugin changes are only applied after Xournal++ is restarted"
@@ -2421,7 +2421,8 @@ msgstr "Настройки Xournal++"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>Если документ уже был сохранен, вы можете найти его в той же папке с расширением .autosave.xopp\n"
+"Если файл еще не сохранен, вы можете найти его в ~/.cache/xournalpp/autosaves</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -3621,7 +3622,7 @@ msgstr ""
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "Недавние _Документы"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
@@ -3641,7 +3642,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "Выйти"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
@@ -3649,11 +3650,11 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "Выбрать все"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "Найти"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
@@ -3661,195 +3662,195 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "На передний план"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "Переместить вперед"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "Переместить назад"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "На задний план"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "Переместить выбранный слой вверх"
 
 #: ../ui/mainmenubar.xml:146
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "Переместить выбранный слой вниз"
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "Настройки"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
-msgstr ""
+msgstr "_Вид"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "_Парные страницы"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "_Режим презентации"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
-msgstr ""
+msgstr "Показать панель инструментов"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
-msgstr ""
+msgstr "Разметка"
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
-msgstr ""
+msgstr "_Горизонтальное"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
-msgstr ""
+msgstr "_Вертикальное"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "_Слева направо"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr ""
+msgstr "_Справа налево"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr ""
+msgstr "_Сверху вниз"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr ""
+msgstr "_Снизу вверх"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
-msgstr ""
+msgstr "_Столбцы/строки"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
-msgstr ""
+msgstr "Установить столбцы"
 
 #: ../ui/mainmenubar.xml:245
 msgid "_1 Column"
-msgstr ""
+msgstr "_1 столбец"
 
 #: ../ui/mainmenubar.xml:250
 msgid "_2 Columns"
-msgstr ""
+msgstr "_2 столбца"
 
 #: ../ui/mainmenubar.xml:255
 msgid "_3 Columns"
-msgstr ""
+msgstr "_3 столбца"
 
 #: ../ui/mainmenubar.xml:260
 msgid "_4 Columns"
-msgstr ""
+msgstr "_4 столбца"
 
 #: ../ui/mainmenubar.xml:265
 msgid "_5 Columns"
-msgstr ""
+msgstr "_5 столбцов"
 
 #: ../ui/mainmenubar.xml:270
 msgid "_6 Columns"
-msgstr ""
+msgstr "_6 столбцов"
 
 #: ../ui/mainmenubar.xml:275
 msgid "_7 Columns"
-msgstr ""
+msgstr "_7 столбцов"
 
 #: ../ui/mainmenubar.xml:280
 msgid "_8 Columns"
-msgstr ""
+msgstr "_8 столбцов"
 
 #: ../ui/mainmenubar.xml:287
 msgid "Set Rows"
-msgstr ""
+msgstr "Установить строки"
 
 #: ../ui/mainmenubar.xml:291
 msgid "_1 Row"
-msgstr ""
+msgstr "_1 строка"
 
 #: ../ui/mainmenubar.xml:296
 msgid "_2 Rows"
-msgstr ""
+msgstr "_2 строки"
 
 #: ../ui/mainmenubar.xml:301
 msgid "_3 Rows"
-msgstr ""
+msgstr "_3 строки"
 
 #: ../ui/mainmenubar.xml:306
 msgid "_4 Rows"
-msgstr ""
+msgstr "_4 строки"
 
 #: ../ui/mainmenubar.xml:311
 msgid "_5 Rows"
-msgstr ""
+msgstr "_5 строк"
 
 #: ../ui/mainmenubar.xml:316
 msgid "_6 Rows"
-msgstr ""
+msgstr "_6 строк"
 
 #: ../ui/mainmenubar.xml:321
 msgid "_7 Rows"
-msgstr ""
+msgstr "_7 строк"
 
 #: ../ui/mainmenubar.xml:326
 msgid "_8 Rows"
-msgstr ""
+msgstr "_8 строк"
 
 #: ../ui/mainmenubar.xml:337
 msgid "T_oolbars"
-msgstr ""
+msgstr "_Панели инструментов"
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
-msgstr ""
+msgstr "_Управление панелями инструментов"
 
 #: ../ui/mainmenubar.xml:344
 msgid "_Customize"
-msgstr ""
+msgstr "_Модифицировать"
 
 #: ../ui/mainmenubar.xml:359
 msgid "Zoom In"
-msgstr ""
+msgstr "Приблизить"
 
 #: ../ui/mainmenubar.xml:364
 msgid "Zoom Out"
-msgstr ""
+msgstr "Отдалить"
 
 #: ../ui/mainmenubar.xml:369
 msgid "Normal Size"
-msgstr ""
+msgstr "Обычный размер"
 
 #: ../ui/mainmenubar.xml:373
 msgid "Zoom to Fit"
-msgstr ""
+msgstr "Вместить в окно"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
-msgstr ""
+msgstr "_Навигация"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
-msgstr ""
+msgstr "_Первая страница"
 
 #: ../ui/mainmenubar.xml:387
 msgid "_Previous Page"
-msgstr ""
+msgstr "_Предыдущая страница"
 
 #: ../ui/mainmenubar.xml:392
 msgid "_Goto Page"
-msgstr ""
+msgstr "_Перейти на страницу"
 
 #: ../ui/mainmenubar.xml:397
 msgid "_Next Page"
@@ -3897,7 +3898,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:453
 msgid "Duplicate Page"
-msgstr ""
+msgstr "Дублировать страницу"
 
 #: ../ui/mainmenubar.xml:457
 msgid "Append New PDF Pages"
@@ -4034,7 +4035,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:716 ../ui/mainmenubar.xml:803
 msgid "Fill opacity"
-msgstr ""
+msgstr "Непрозрачность заливки"
 
 #: ../ui/mainmenubar.xml:722
 msgid "Eraser Optio_ns"
@@ -4062,55 +4063,55 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:812
 msgid "Marker Opacity"
-msgstr ""
+msgstr "Непрозрачность маркера"
 
 #: ../ui/mainmenubar.xml:818
 msgid "Text Font..."
-msgstr ""
+msgstr "Шрифт текста..."
 
 #: ../ui/mainmenubar.xml:823
 msgid "Record / Stop"
-msgstr ""
+msgstr "Запись / Стоп"
 
 #: ../ui/mainmenubar.xml:828
 msgid "Pause"
-msgstr ""
+msgstr "Пауза"
 
 #: ../ui/mainmenubar.xml:855
 msgid "_Help"
-msgstr ""
+msgstr "_Справка"
 
 #: ../ui/mainmenubar.xml:859
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: ../ui/mainmenubar.xml:863
 msgid "About"
-msgstr ""
+msgstr "О программе"
 
 #: ../resources-templates/pagetemplates.ini.in:17
 msgid "Ruled with vertical line on the right"
-msgstr ""
+msgstr "Размечено вертикальной линией справа"
 
 #: ../resources-templates/pagetemplates.ini.in:42
 msgid "Graph with border"
-msgstr ""
+msgstr "Клетка с границей"
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
-msgstr ""
+msgstr "Все инструменты"
 
 #: ../resources-templates/toolbar.ini.in:55
 msgid "Portrait"
-msgstr ""
+msgstr "Портретная"
 
 #: ../resources-templates/toolbar.ini.in:61
 msgid "Minimal Left"
-msgstr ""
+msgstr "Минимальный влево"
 
 #: ../resources-templates/toolbar.ini.in:65
 msgid "Minimal Top"
-msgstr ""
+msgstr "Минимальный вверх"
 
 #: ../resources-templates/toolbar.ini.in:69
 msgid "Xournal++"
@@ -4118,27 +4119,27 @@ msgstr ""
 
 #: ../resources-templates/toolbar.ini.in:77
 msgid "Right hand Note Taking"
-msgstr ""
+msgstr "Создание заметок правой рукой"
 
 #: ../resources-templates/toolbar.ini.in:80
 msgid "Toolbar Left"
-msgstr ""
+msgstr "Панель слева"
 
 #: ../resources-templates/toolbar.ini.in:86
 msgid "Toolbar Right"
-msgstr ""
+msgstr "Панель справа"
 
 #: ../resources-templates/toolbar.ini.in:101
 msgid "Empty Toolbar"
-msgstr ""
+msgstr "Пустая панель инструментов"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:6
 msgid "Take handwritten notes"
-msgstr ""
+msgstr "Делайте рукописные заметки"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:7
 msgid "tablet;Wacom;pen input;PDF Annotation;markup"
-msgstr ""
+msgstr "планшет;Wacom;ввод ручкой;PDF Аннотации;разметка"
 
 #: ../desktop/com.github.xournalpp.xournalpp.desktop.in:15
 msgid "com.github.xournalpp.xournalpp"
@@ -4146,27 +4147,27 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:10
 msgid "Xournal++ is a hand note-taking software written in C++ with the target of flexibility, functionality and speed. Stroke recognizer and other parts are based on Xournal Code, which you can find at sourceforge. It supports GNU/Linux (e.g. Ubuntu, Debian, Arch, SUSE), macOS and Windows. Supports pen input from devices such as Wacom Tablets."
-msgstr ""
+msgstr "Xournal++ — это программа для создания заметок записями от руки, написанная на C++ с целью гибкости, функциональности и скорости. Распознавание штрихов и другие модули основаны на Xournal Code, который вы можете найти на sourceforge. Программа поддерживает системы GNU/Linux (например, Ubuntu, Debian, Arch, SUSE), macOS и Windows."
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:17
 msgid "Xournal++ features:"
-msgstr ""
+msgstr "Функции Xournal++:"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:21
 msgid "Supports pressure-sensitive styluses and digital pen tables (e.g. Wacom, Huion, XP Pen, etc. tablets)"
-msgstr ""
+msgstr "Поддерживает чувствительные к давлению стилусы и графические планшеты (например, Wacom, Huion, XP Pen, и т.д.)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:22
 msgid "Paper backgrounds for note-taking, scratch paper, or whiteboarding"
-msgstr ""
+msgstr "Бумажные фоны для создания заметок или рисования на белой доске"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:23
 msgid "Annotate on top of PDFs"
-msgstr ""
+msgstr "Аннотируйте поверх PDF"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:24
 msgid "Select text from the background PDF, copy, highlight or underline it or strike it through"
-msgstr ""
+msgstr "Выбирайте текст из фонового PDF, копируйте, выделяйте, подчёркивайте или зачеркивайте его"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:25
 msgid "Follow links from the background PDF"
@@ -4190,7 +4191,7 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:30
 msgid "Fill shape functionality"
-msgstr ""
+msgstr "Функционал заполнения форм"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:31
 msgid "Shape resizing and rotation"
@@ -4214,11 +4215,11 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:36
 msgid "Eraser with multiple configurations"
-msgstr ""
+msgstr "Ластик с несколькими конфигурациями"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:37
 msgid "LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting"
-msgstr ""
+msgstr "Поддержка LaTeX (требуется установка LaTeX) с настраиваемым шаблоном и изменяемым в размере редактором с подсветкой синтаксиса"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:38
 msgid "Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)"
@@ -4246,22 +4247,22 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:44
 msgid "Audio recording and playback alongside with handwritten notes"
-msgstr ""
+msgstr "Запись и воспроизведение аудио вместе с написанными заметками"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:45
 msgid "Multi language support (over 20 languages supported)"
-msgstr ""
+msgstr "Поддержка нескольких языков (поддерживается более 20 языков)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:46
 msgid "Plugins using Lua scripting"
-msgstr ""
+msgstr "Плагины на Lua скриптах"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:4
 msgid "Xournal note file"
-msgstr ""
+msgstr "Файл заметок Xournal"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:8
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:12
 msgid "Xournal++ note file"
-msgstr ""
+msgstr "Файл заметок Xournal++"
 
