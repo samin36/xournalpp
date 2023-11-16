@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 19:50+0000\n"
-"PO-Revision-Date: 2023-11-15 20:33\n"
+"PO-Revision-Date: 2023-11-16 09:35\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -140,7 +140,7 @@ msgstr "Xournal++ 文件"
 
 #: ../src/core/control/Control.cpp:1777
 msgid "Select font"
-msgstr ""
+msgstr "选择字体"
 
 #: ../src/core/control/Control.cpp:1792
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
@@ -174,7 +174,7 @@ msgstr "丢弃"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document..."
-msgstr ""
+msgstr "正在尝试紧急保存当前打开的文档……"
 
 #: ../src/core/control/CrashHandler.cpp:40
 #: ../src/core/control/XournalMain.cpp:301
@@ -294,7 +294,7 @@ msgstr "最近的日志文件名：{1}"
 
 #: ../src/core/control/XournalMain.cpp:193
 msgid "To prevent this popup from reappearing, simply delete the errorlogfiles."
-msgstr ""
+msgstr "若要阻止此弹窗重新出现，只需删除错误日志文件。"
 
 #: ../src/core/control/XournalMain.cpp:196
 msgid "File Bug Report"
@@ -365,14 +365,16 @@ msgstr "对不起，Xournal++ 只能一次打开一个文件。\n"
 
 #: ../src/core/control/XournalMain.cpp:471
 msgid "File {1} does not exist."
-msgstr ""
+msgstr "文件 {1} 不存在。"
 
 #: ../src/core/control/XournalMain.cpp:475
 #: ../src/core/control/XournalMain.cpp:573
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "文件系统错误： {1}\n"
+"对不起，Xournal++ 无法打开文件： {2}\n"
+"考虑将文件复制到本地目录。"
 
 #: ../src/core/control/XournalMain.cpp:691
 msgid "Jump to Page (first Page: 1)"
@@ -389,7 +391,8 @@ msgstr "禁用此会话的音频"
 #: ../src/core/control/XournalMain.cpp:699
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "以附件模式打开PDF\n"
+"                                 如果没有指定PDF文件，则忽略。"
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
@@ -3656,7 +3659,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
-msgstr ""
+msgstr "查找"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
