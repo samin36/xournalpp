@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 19:50+0000\n"
-"PO-Revision-Date: 2023-11-16 09:35\n"
+"PO-Revision-Date: 2023-11-16 14:05\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -493,7 +493,7 @@ msgstr "输出为PDF"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "导出(_E)"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -1650,7 +1650,7 @@ msgstr "页面"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:12
 msgid "PDF text selection dropdown menu"
-msgstr ""
+msgstr "PDF 文本选择下拉菜单"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
 msgid "Select PDF Text In Rectangle"
@@ -1658,7 +1658,7 @@ msgstr "在矩形中选择 PDF 文本"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
 msgid "Selection dropdown menu"
-msgstr ""
+msgstr "选择下拉菜单"
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:133
 msgid "Zoom Slider"
@@ -1667,57 +1667,57 @@ msgstr "缩放游标"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "黑色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "绿色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "浅蓝色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "浅绿色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "蓝色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "灰色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "红色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "品红色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "橙色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "黄色"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "白色"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2422,7 +2422,8 @@ msgstr "Xournal++偏好设置"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>如果文档已经保存，请看同一文件夹下拓展名为.autosave.xopp的自动保存文件\n"
+"如果该文件尚未保存，请查看~/.cache/xournalpp/autosaves目录</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -2473,7 +2474,30 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%a\t\t星期几的缩写 (如周四）\n"
+"%A\t\t星期几的全称 (如星期四）\n"
+"%b\t\t月份缩写 （如八月）\n"
+"%B\t\t月份全称 （如八月）\n"
+"%c\t\t日期与时间的表示方式 (如 2011年8月23日星期四14:55:02)\n"
+"%d\t\t每个月的第几天 (01-31)\n"
+"%F\t\t日期表示方式 (如 2001-08-23)\n"
+"%H\t\t24小时表示的小时 (00-23)\n"
+"%I\t\t12小时表示的小时 (01-12)\n"
+"%j\t\t一年中第几天 (001-366)\n"
+"%m\t\t十进制月份 (01-12)\n"
+"%M\t\t分 (00-59)\n"
+"%p\t\t上下午的区分 (如下午)\n"
+"%S\t\t秒 (00-61)\n"
+"%U\t\t第几周 (按第一个周日是第一周的第一天计算） (00-53)\n"
+"%w\t\t周几（按周日为0计算) (0-6)\n"
+"%W\t\t第几周（按第一个周一是第一周的第一天计算） (00-53)\n"
+"%x\t\t日期表示方式 (如 08/23/01)\n"
+"%X\t\t时间表示方式 (如 14:55:02)\n"
+"%y\t\t年份最后两位 (00-99)\n"
+"%Y\t\t年份 (如 2001)\n"
+"%Z\t\t时区名或缩写 (如 CDT)\n"
+"%%\t\t%符号\n"
+"非法字符会被替换成“_”"
 
 #: ../ui/settings.glade:585 ../ui/settings.glade:754
 msgid "Available Placeholders"
@@ -2513,7 +2537,31 @@ msgid "%{name}\tThe name of the exported document\n"
 "%Z\t\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%{name}\t导出文档的名称\n"
+"%a\t\t星期几的缩写 (如周四）\n"
+"%A\t\t星期几的全称 (如星期四）\n"
+"%b\t\t月份缩写 （如八月）\n"
+"%B\t\t月份全称 （如八月）\n"
+"%c\t\t日期与时间的表示方式 (如 2011年8月23日星期四14:55:02)\n"
+"%d\t\t每个月的第几天 (01-31)\n"
+"%F\t\t日期表示方式 (如 2001-08-23)\n"
+"%H\t\t24小时表示的小时 (00-23)\n"
+"%I\t\t12小时表示的小时 (01-12)\n"
+"%j\t\t一年中第几天 (001-366)\n"
+"%m\t\t十进制月份 (01-12)\n"
+"%M\t\t分 (00-59)\n"
+"%p\t\t上下午的区分 (如下午)\n"
+"%S\t\t秒 (00-61)\n"
+"%U\t\t第几周 (按第一个周日是第一周的第一天计算） (00-53)\n"
+"%w\t\t周几（按周日为0计算) (0-6)\n"
+"%W\t\t第几周（按第一个周一是第一周的第一天计算） (00-53)\n"
+"%x\t\t日期表示方式 (如 08/23/01)\n"
+"%X\t\t时间表示方式 (如 14:55:02)\n"
+"%y\t\t年份最后两位 (00-99)\n"
+"%Y\t\t年份 (如 2001)\n"
+"%Z\t\t时区名或缩写 (如 CDT)\n"
+"%%\t\t%符号\n"
+"非法字符会被替换成“_”"
 
 #: ../ui/settings.glade:778
 msgid "Default Pdf export name"
@@ -2663,23 +2711,23 @@ msgstr "抖动处理（输入稳定化）"
 
 #: ../ui/settings.glade:1391
 msgid "Indent using spaces"
-msgstr ""
+msgstr "使用空格缩进"
 
 #: ../ui/settings.glade:1413
 msgid "Number of Spaces : "
-msgstr ""
+msgstr "空格数："
 
 #: ../ui/settings.glade:1425
 msgid "Number of spaces inserted with tab."
-msgstr ""
+msgstr "使用制表符时插入的空格数。"
 
 #: ../ui/settings.glade:1427
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../ui/settings.glade:1456
 msgid "Tab"
-msgstr ""
+msgstr "制表符"
 
 #: ../ui/settings.glade:1487
 msgid "Input System"
@@ -3598,7 +3646,7 @@ msgstr "命令行输出"
 
 #: ../ui/toolbarCustomizeDialog.glade:30
 msgid "Drag and drop Components from here to the toolbars and back."
-msgstr ""
+msgstr "组件可以在这里和工具条之间来回拖动。"
 
 #: ../ui/toolbarCustomizeDialog.glade:62
 msgid "<b>Default Tools</b>"
@@ -3618,44 +3666,44 @@ msgstr "定制工具条"
 
 #: ../ui/mainmenubar.xml:5
 msgid "_File"
-msgstr ""
+msgstr "文件(_F)"
 
 #: ../ui/mainmenubar.xml:13
 msgid "Open"
-msgstr ""
+msgstr "打开"
 
 #. Filled dynamically
 #: ../ui/mainmenubar.xml:19
 msgid "Recent _Documents"
-msgstr ""
+msgstr "最近文档(_D)"
 
 #: ../ui/mainmenubar.xml:22
 msgid "_Annotate PDF"
-msgstr ""
+msgstr "标注PDF(_A)"
 
 #: ../ui/mainmenubar.xml:31
 msgid "Save As"
-msgstr ""
+msgstr "另存为"
 
 #: ../ui/mainmenubar.xml:39
 msgid "_Export as PDF"
-msgstr ""
+msgstr "导出为PDF(_E)"
 
 #: ../ui/mainmenubar.xml:43
 msgid "Export as..."
-msgstr ""
+msgstr "导出为……"
 
 #: ../ui/mainmenubar.xml:55
 msgid "Quit"
-msgstr ""
+msgstr "退出"
 
 #: ../ui/mainmenubar.xml:62
 msgid "_Edit"
-msgstr ""
+msgstr "编辑(_E)"
 
 #: ../ui/mainmenubar.xml:94
 msgid "Select All"
-msgstr ""
+msgstr "全选"
 
 #: ../ui/mainmenubar.xml:101
 msgid "Find"
@@ -3663,67 +3711,67 @@ msgstr "查找"
 
 #: ../ui/mainmenubar.xml:115
 msgid "Arrange Selection"
-msgstr ""
+msgstr "排列选择"
 
 #: ../ui/mainmenubar.xml:118
 msgid "Bring to Front"
-msgstr ""
+msgstr "移到最前"
 
 #: ../ui/mainmenubar.xml:123
 msgid "Bring Forward"
-msgstr ""
+msgstr "上移一层"
 
 #: ../ui/mainmenubar.xml:128
 msgid "Send Backward"
-msgstr ""
+msgstr "下移一层"
 
 #: ../ui/mainmenubar.xml:133
 msgid "Send to Back"
-msgstr ""
+msgstr "移到最后"
 
 #: ../ui/mainmenubar.xml:142
 msgid "Move Selection Layer Up"
-msgstr ""
+msgstr "上移选区图层"
 
 #: ../ui/mainmenubar.xml:146
 msgid "Move Selection Layer Down"
-msgstr ""
+msgstr "下移选区图层"
 
 #: ../ui/mainmenubar.xml:162
 msgid "Preferences"
-msgstr ""
+msgstr "偏好设置"
 
 #: ../ui/mainmenubar.xml:168
 msgid "_View"
-msgstr ""
+msgstr "视图(_V)"
 
 #: ../ui/mainmenubar.xml:171
 msgid "_Pair Pages"
-msgstr ""
+msgstr "双页模式(_P)"
 
 #: ../ui/mainmenubar.xml:175
 msgid "_Presentation Mode"
-msgstr ""
+msgstr "演讲模式(_P)"
 
 #: ../ui/mainmenubar.xml:192
 msgid "Show Toolbars"
-msgstr ""
+msgstr "显示工具栏"
 
 #: ../ui/mainmenubar.xml:199
 msgid "Layout"
-msgstr ""
+msgstr "布局"
 
 #: ../ui/mainmenubar.xml:202
 msgid "_Horizontal"
-msgstr ""
+msgstr "水平(_H)"
 
 #: ../ui/mainmenubar.xml:207
 msgid "_Vertical"
-msgstr ""
+msgstr "垂直(_V)"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "从左到右(_L)"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
@@ -3923,31 +3971,31 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:477
 msgid "Delete Layer"
-msgstr ""
+msgstr "删除图层"
 
 #: ../ui/mainmenubar.xml:482
 msgid "Merge Layer Down"
-msgstr ""
+msgstr "向下合并图层"
 
 #: ../ui/mainmenubar.xml:487
 msgid "Rename Layer"
-msgstr ""
+msgstr "重命名图层"
 
 #: ../ui/mainmenubar.xml:494
 msgid "Paper _Format"
-msgstr ""
+msgstr "纸张样式(_F)"
 
 #: ../ui/mainmenubar.xml:498
 msgid "Paper _Color"
-msgstr ""
+msgstr "纸张颜色(_C)"
 
 #: ../ui/mainmenubar.xml:502
 msgid "Paper B_ackground"
-msgstr ""
+msgstr "纸张背景(_a)"
 
 #: ../ui/mainmenubar.xml:507
 msgid "_Tools"
-msgstr ""
+msgstr "工具(_T)"
 
 #: ../ui/mainmenubar.xml:510
 msgid "_Pen"
