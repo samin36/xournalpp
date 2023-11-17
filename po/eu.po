@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 19:50+0000\n"
-"PO-Revision-Date: 2023-11-17 07:49\n"
+"PO-Revision-Date: 2023-11-17 10:37\n"
 "Last-Translator: \n"
 "Language-Team: Basque\n"
 "Language: eu_ES\n"
@@ -1066,7 +1066,7 @@ msgstr "Marraztu gezi bikoitza"
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:38
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:458
 msgid "Draw coordinate system"
-msgstr "Koordenatuen sistema"
+msgstr "Marraztu koordenatu ardatzak"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
@@ -1523,7 +1523,7 @@ msgstr "Eskuaira"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:447
 msgid "Compass"
-msgstr "Iparrorratza"
+msgstr "Angelu-garraiagailua"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:451
 msgid "Shape Recognizer"
@@ -2820,7 +2820,7 @@ msgstr "Stylus-aren botoiak"
 
 #: ../ui/settings.glade:2110
 msgid "Stylus-based eraser is visible"
-msgstr "Boligrafoaren borragoma ikusgai dago"
+msgstr "Arkatzean oinarritutako borragoma ikusgai dago"
 
 #: ../ui/settings.glade:2125
 msgctxt "eraser is never visible"
@@ -4037,7 +4037,7 @@ msgstr "_Formen identifikatzailea"
 
 #: ../ui/mainmenubar.xml:586
 msgid "Draw Coordinate System"
-msgstr "Marraztu koordenatuen sistema"
+msgstr "Marraztu koordenatu-ardatza"
 
 #: ../ui/mainmenubar.xml:591
 msgid "Draw _Line"
