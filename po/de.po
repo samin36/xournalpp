@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 19:50+0000\n"
-"PO-Revision-Date: 2023-11-15 20:33\n"
+"PO-Revision-Date: 2023-11-18 19:34\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -174,7 +174,7 @@ msgstr "Verwerfen"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document..."
-msgstr ""
+msgstr "Versuche eine Notfall-Speicherung des aktuell geöffneten Dokuments..."
 
 #: ../src/core/control/CrashHandler.cpp:40
 #: ../src/core/control/XournalMain.cpp:301
@@ -396,7 +396,7 @@ msgstr "Öffnen Sie PDF im Anhang-Modus\n"
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr ""
+msgstr "XOPP-Datei mit dem als FILE angegebenen Hintergrund-PDF speichern"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
