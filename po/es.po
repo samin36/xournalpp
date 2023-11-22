@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 19:50+0000\n"
-"PO-Revision-Date: 2023-11-15 20:33\n"
+"POT-Creation-Date: 2023-11-22 08:35+0000\n"
+"PO-Revision-Date: 2023-11-22 08:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -35,27 +35,27 @@ msgstr "No se pudo cambiar el nombre del archivo de guardado automático de «{1
 msgid "Autosave failed with an error: {1}"
 msgstr "Falló el guardado automático debido a un error: {1}"
 
-#: ../src/core/control/Control.cpp:568
+#: ../src/core/control/Control.cpp:574
 msgid "The Toolbarconfiguration \"{1}\" is predefined, would you create a copy to edit?"
 msgstr "La configuración de barras de herramientas «{1}» es la predefinida. ¿Quiere crear una copia para editarla?"
 
-#: ../src/core/control/Control.cpp:571
+#: ../src/core/control/Control.cpp:577
 msgid "Yes"
 msgstr "Si"
 
-#: ../src/core/control/Control.cpp:571
+#: ../src/core/control/Control.cpp:577
 msgid "No"
 msgstr "No"
 
-#: ../src/core/control/Control.cpp:750
+#: ../src/core/control/Control.cpp:756
 msgid "No pdf pages available to append. You may need to reopen the document first."
 msgstr "No hay páginas pdf disponibles para añadir. Es posible que sea necesario reabrir el documento primero."
 
-#: ../src/core/control/Control.cpp:764
+#: ../src/core/control/Control.cpp:770
 msgid "Unable to retrieve pdf page."
 msgstr "No se ha podido obtener la página del pdf."
 
-#: ../src/core/control/Control.cpp:1332
+#: ../src/core/control/Control.cpp:1336
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
@@ -63,64 +63,64 @@ msgstr "No abra los archivos de guardado automático; se sobrescribirán.\n"
 "Copie los archivos en otra carpeta.\n"
 "No se pueden abrir los archivos de la carpeta {1}."
 
-#: ../src/core/control/Control.cpp:1346
+#: ../src/core/control/Control.cpp:1350
 msgid "file: {1}"
 msgstr "archivo: {1}"
 
-#: ../src/core/control/Control.cpp:1394
+#: ../src/core/control/Control.cpp:1398
 msgid "The attached background file could not be found. It might have been moved, renamed or deleted."
 msgstr "No se pudo encontrar el archivo de fondo adjunto. Podría haber sido movido, renombrado o eliminado."
 
-#: ../src/core/control/Control.cpp:1397
+#: ../src/core/control/Control.cpp:1401
 msgid "The background file \"{1}\" could not be found. It might have been moved, renamed or deleted.\n"
 "It was last seen at: \"{2}\""
 msgstr "No se ha encontrado el archivo de fondo \"{1}\". Puede haber sido movido, renombrado o eliminado.\n"
 "Fue visto por última vez en: \"{2}\""
 
-#: ../src/core/control/Control.cpp:1407
+#: ../src/core/control/Control.cpp:1411
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
 "Archivo de reemplazo propuesto: \"{1}\""
 
-#: ../src/core/control/Control.cpp:1415
+#: ../src/core/control/Control.cpp:1419
 msgid "Use proposed PDF"
 msgstr "Usar el PDF propuesto"
 
-#: ../src/core/control/Control.cpp:1417
+#: ../src/core/control/Control.cpp:1421
 msgid "Select another PDF"
 msgstr "Seleccionar otro PDF"
 
-#: ../src/core/control/Control.cpp:1418
+#: ../src/core/control/Control.cpp:1422
 msgid "Remove PDF Background"
 msgstr "Quitar fondo PDF"
 
-#: ../src/core/control/Control.cpp:1419 ../src/core/control/Control.cpp:1942
+#: ../src/core/control/Control.cpp:1423 ../src/core/control/Control.cpp:1946
 #: ../src/core/control/XournalMain.cpp:200
 #: ../src/core/gui/sidebar/Sidebar.cpp:87
 msgid "Cancel"
 msgstr "Cancelar"
 
-#: ../src/core/control/Control.cpp:1450
+#: ../src/core/control/Control.cpp:1454
 msgid "Error opening file \"{1}\""
 msgstr "Error al abrir el archivo «{1}»"
 
-#: ../src/core/control/Control.cpp:1458
+#: ../src/core/control/Control.cpp:1462
 msgid "The file being loaded has a file format version newer than the one currently supported by this version of Xournal++, so it may not load properly. Open anyways?"
 msgstr "El archivo que se está cargando tiene una versión del formato más nueva que la que está soportada por esta versión de Xournal++, así que podría no cargarse correctamente. ¿Deseas abrirlo igualmente?"
 
-#: ../src/core/control/Control.cpp:1620
+#: ../src/core/control/Control.cpp:1624
 msgid "Error annotate PDF file \"{1}\"\n"
 "{2}"
 msgstr "Error al anotar el archivo PDF «{1}»\n"
 "{2}"
 
-#: ../src/core/control/Control.cpp:1724
+#: ../src/core/control/Control.cpp:1728
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:111
 msgid "Save File"
 msgstr "Guardar archivo"
 
-#: ../src/core/control/Control.cpp:1724
+#: ../src/core/control/Control.cpp:1728
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 #: ../src/core/control/stockdlg/ImageOpenDlg.cpp:16
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:17
@@ -128,47 +128,47 @@ msgstr "Guardar archivo"
 msgid "_Cancel"
 msgstr "_Cancelar"
 
-#: ../src/core/control/Control.cpp:1725
+#: ../src/core/control/Control.cpp:1729
 #: ../src/core/gui/dialog/PageTemplateDialog.cpp:112
 msgid "_Save"
 msgstr "_Guardar"
 
-#: ../src/core/control/Control.cpp:1730
+#: ../src/core/control/Control.cpp:1734
 #: ../src/core/control/stockdlg/XojOpenDlg.cpp:63
 msgid "Xournal++ files"
 msgstr "Archivos de Xournal++"
 
-#: ../src/core/control/Control.cpp:1777
+#: ../src/core/control/Control.cpp:1781
 msgid "Select font"
 msgstr ""
 
-#: ../src/core/control/Control.cpp:1792
+#: ../src/core/control/Control.cpp:1796
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
 msgid "Select color"
 msgstr "Seleccionar color"
 
-#: ../src/core/control/Control.cpp:1814
+#: ../src/core/control/Control.cpp:1818
 msgid "Unsaved Document"
 msgstr "Documento no guardado"
 
-#: ../src/core/control/Control.cpp:1933
+#: ../src/core/control/Control.cpp:1937
 msgid "Document file was removed."
 msgstr "Se eliminó el archivo del documento."
 
-#: ../src/core/control/Control.cpp:1933
+#: ../src/core/control/Control.cpp:1937
 msgid "This document is not saved yet."
 msgstr "Aún no se ha guardado este documento."
 
-#: ../src/core/control/Control.cpp:1934
+#: ../src/core/control/Control.cpp:1938
 msgid "Save As..."
 msgstr "Guardar como…"
 
-#: ../src/core/control/Control.cpp:1934 ../src/core/control/jobs/SaveJob.cpp:24
+#: ../src/core/control/Control.cpp:1938 ../src/core/control/jobs/SaveJob.cpp:24
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:337
 msgid "Save"
 msgstr "Guardar"
 
-#: ../src/core/control/Control.cpp:1939
+#: ../src/core/control/Control.cpp:1943
 msgid "Discard"
 msgstr "Descartar"
 
@@ -686,23 +686,23 @@ msgstr "Plantilla de Xournal++"
 msgid "Supported files"
 msgstr "Archivos admitidos"
 
-#: ../src/core/control/tools/EditSelection.cpp:401
+#: ../src/core/control/tools/EditSelection.cpp:462
 msgid "Arrange"
 msgstr "Ordenar"
 
-#: ../src/core/control/tools/EditSelection.cpp:406
+#: ../src/core/control/tools/EditSelection.cpp:467
 msgid "Bring to front"
 msgstr "Traer al frente"
 
-#: ../src/core/control/tools/EditSelection.cpp:416
+#: ../src/core/control/tools/EditSelection.cpp:478
 msgid "Bring forward"
 msgstr "Traer hacia delante"
 
-#: ../src/core/control/tools/EditSelection.cpp:427
+#: ../src/core/control/tools/EditSelection.cpp:490
 msgid "Send backward"
 msgstr "Enviar atrás"
 
-#: ../src/core/control/tools/EditSelection.cpp:435
+#: ../src/core/control/tools/EditSelection.cpp:497
 msgid "Send to back"
 msgstr "Enviar al fondo"
 
@@ -887,17 +887,17 @@ msgstr "Error al cargar el archivo de Glade «{1}» (se intentará cargar «{2}�
 msgid "Unable to play audio recording {1}"
 msgstr "No se puede reproducir la grabación de audio {1}"
 
-#: ../src/core/gui/PageView.cpp:912
+#: ../src/core/gui/PageView.cpp:917
 #: ../src/core/gui/sidebar/previews/base/SidebarPreviewBaseEntry.cpp:96
 #: ../src/core/gui/toolbarMenubar/ToolPageLayer.cpp:225
 msgid "Loading..."
 msgstr "Cargando…"
 
-#: ../src/core/gui/PageView.cpp:975
+#: ../src/core/gui/PageView.cpp:980
 msgid "Scroll to page {1}"
 msgstr "Desplazarse a la página {1}"
 
-#: ../src/core/gui/PageView.cpp:977
+#: ../src/core/gui/PageView.cpp:982
 msgid "Add missing page"
 msgstr "Añadir página faltante"
 
