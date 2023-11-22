@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-11-22 08:44\n"
+"PO-Revision-Date: 2023-11-22 11:15\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -2976,11 +2976,11 @@ msgstr "<i>Activează/Dezactivează vizibilitatea opțiunilor cu F10</i>"
 
 #: ../ui/settings.glade:2933
 msgid "Show filepath in title bar"
-msgstr "Arată calea fișierului în titlu"
+msgstr "Arată calea și numele fișierului în banda de sus"
 
 #: ../ui/settings.glade:2948
 msgid "Show page number in title bar"
-msgstr "Arată numărul paginii în bara cu titlul"
+msgstr "Arată numărul paginii în banda de sus"
 
 #: ../ui/settings.glade:2988
 msgid "Border color for current page and other selections"
