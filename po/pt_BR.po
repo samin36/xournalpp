@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-11-22 08:44\n"
+"PO-Revision-Date: 2023-11-23 14:52\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -173,7 +173,7 @@ msgstr "Descartar"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document..."
-msgstr ""
+msgstr "Tentando salvar emergencialmente o documento aberto..."
 
 #: ../src/core/control/CrashHandler.cpp:40
 #: ../src/core/control/XournalMain.cpp:301
@@ -3444,7 +3444,8 @@ msgstr "Ação na Ferramenta de Toque"
 #: ../ui/settings.glade:5300
 msgid "<i>Re-render PDF backgrounds more often while zooming for better render quality.\n"
 "<b>Note:</b> This should not affect print quality.</i>"
-msgstr ""
+msgstr "<i>Redesenhar os planos de fundo do PDF com mais frequência durante a ampliação, para uma melhor qualidade de visualização. \n"
+"<b>Nota:</b> Isto não afetará a qualidade da impressão.</i>"
 
 #: ../ui/settings.glade:5321
 msgid "When zoomed in on a high-resolution PDF, each re-render can take a long time. Setting this to a large value causes these re-renders to happen less often.\n\n"
@@ -3489,7 +3490,10 @@ msgid "<i>\n"
 "Using the checkbox the audio system can be disabled or enabled for future sessions (restart required).\n"
 "Disabling audio for a single session can be achieved using the <tt>--disable-audio</tt> flag on the command line.\n"
 "</i>"
-msgstr ""
+msgstr "<i>\n"
+"O sistema de áudio pode ser desativado ou ativado para futuras sessões (é necessário reiniciar).\n"
+"Desabilitar áudio para uma só sessão pode ser alcançado utilizando o argumento de linha de comando <tt>--disable-audio</tt>.\n"
+"</i>"
 
 #: ../ui/settings.glade:5613
 msgid "Disable Audio"
@@ -3643,7 +3647,7 @@ msgstr "Saída de comando"
 
 #: ../ui/toolbarCustomizeDialog.glade:30
 msgid "Drag and drop Components from here to the toolbars and back."
-msgstr ""
+msgstr "Arraste e solte componentes daqui até as barras de ferramentas e vice-versa."
 
 #: ../ui/toolbarCustomizeDialog.glade:62
 msgid "<b>Default Tools</b>"
