@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-11-23 16:16\n"
+"PO-Revision-Date: 2023-11-23 17:35\n"
 "Last-Translator: \n"
 "Language-Team: Portuguese, Brazilian\n"
 "Language: pt_BR\n"
@@ -3772,19 +3772,19 @@ msgstr "_Vertical"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr ""
+msgstr "Da Esquerda para a Direita (_L)"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr ""
+msgstr "Da Di_reita para a Esquerda"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr ""
+msgstr "Do _topo até a base"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr ""
+msgstr "Da _base até o topo"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
@@ -4089,7 +4089,7 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:716 ../ui/mainmenubar.xml:803
 msgid "Fill opacity"
-msgstr ""
+msgstr "Opacidade do preenchimento"
 
 #: ../ui/mainmenubar.xml:722
 msgid "Eraser Optio_ns"
@@ -4113,15 +4113,15 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:809
 msgid "Select PDF Text Options"
-msgstr ""
+msgstr "Selecionar Opções de Texto do PDF"
 
 #: ../ui/mainmenubar.xml:812
 msgid "Marker Opacity"
-msgstr ""
+msgstr "Opacidade do Marcador"
 
 #: ../ui/mainmenubar.xml:818
 msgid "Text Font..."
-msgstr ""
+msgstr "Fonte do Texto..."
 
 #: ../ui/mainmenubar.xml:823
 msgid "Record / Stop"
@@ -4145,11 +4145,11 @@ msgstr "Sobre"
 
 #: ../resources-templates/pagetemplates.ini.in:17
 msgid "Ruled with vertical line on the right"
-msgstr ""
+msgstr "Pautado, com linha vertical à direita"
 
 #: ../resources-templates/pagetemplates.ini.in:42
 msgid "Graph with border"
-msgstr ""
+msgstr "Gráfico com borda"
 
 #: ../resources-templates/toolbar.ini.in:50
 msgid "All Tools"
@@ -4249,11 +4249,11 @@ msgstr ""
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:31
 msgid "Shape resizing and rotation"
-msgstr ""
+msgstr "Redimensionamento e rotação de forma"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:32
 msgid "Rotation and grid snapping for precise alignment of objects"
-msgstr ""
+msgstr "Rotação e encaixe à grade para um alinhamento preciso de objetos"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:33
 msgid "Input stabilization for smoother writing/drawing"
@@ -4261,15 +4261,15 @@ msgstr "Estabilização de entrada para escrita e desenho mais suaves"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:34
 msgid "Text tool for adding text in different fonts, colors, and sizes"
-msgstr ""
+msgstr "Ferramenta de texto com suporte a diferentes fontes, cores e tamanhos"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:35
 msgid "Enhanced support for image insertion"
-msgstr ""
+msgstr "Suporte a inserção de imagem aprimorado"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:36
 msgid "Eraser with multiple configurations"
-msgstr ""
+msgstr "Borracha com múltiplas configurações"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:37
 msgid "LaTeX support (requires a working LaTeX installation) with customizable template and a resizable editor with syntax highlighting"
@@ -4277,27 +4277,27 @@ msgstr "Suporte a LaTeX (requer uma instalação funcional de LaTeX) com um temp
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:38
 msgid "Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)"
-msgstr ""
+msgstr "Barra lateral contendo pré-visualizações de páginas com ordenação avançada de páginas, favoritos do PDF e camadas (podem ser escondidos ou editados individualmente)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:39
 msgid "Allows mapping different tools/colors etc. to stylus/mouse buttons"
-msgstr ""
+msgstr "Permite atribuir diferentes ferramentas, cores, etc. a botões de canetas ou mouses"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:40
 msgid "Customizable toolbar with multiple configurations, e.g. to optimize toolbar for portrait/landscape"
-msgstr ""
+msgstr "Barra de ferramentas personalizável com várias configurações, por exemplo, para otimizar barra de ferramentas para retrato ou paisagem"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:41
 msgid "Custom color palette support using the .gpl format"
-msgstr ""
+msgstr "Suporte a paleta de cores personalizada usando o formato .gpl"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:42
 msgid "Page template definitions"
-msgstr ""
+msgstr "Definições de modelo de página"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:43
 msgid "Bug reporting, autosave, and auto backup tools"
-msgstr ""
+msgstr "Relatório de defeitos, salvamento automático e ferramentas para backup automático"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:44
 msgid "Audio recording and playback alongside with handwritten notes"
@@ -4313,10 +4313,10 @@ msgstr "Plugins usando Lua script"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:4
 msgid "Xournal note file"
-msgstr ""
+msgstr "Arquivo de nota do Xournal"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:8
 #: ../resources-templates/com.github.xournalpp.xournalpp.xml.in:12
 msgid "Xournal++ note file"
-msgstr ""
+msgstr "Arquivo de nota do Xournal++"
 
