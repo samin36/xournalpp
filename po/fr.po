@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-12-07 13:08\n"
+"PO-Revision-Date: 2023-12-07 14:26\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -3772,19 +3772,19 @@ msgstr "_Vertical"
 
 #: ../ui/mainmenubar.xml:214
 msgid "_Left to Right"
-msgstr "_Gauche à droite"
+msgstr "_Gauche à Droite"
 
 #: ../ui/mainmenubar.xml:219
 msgid "_Right to Left"
-msgstr "_Droite à gauche"
+msgstr "_Droite à Gauche"
 
 #: ../ui/mainmenubar.xml:226
 msgid "_Top to Bottom"
-msgstr "De _haut en bas"
+msgstr "_Haut en Bas"
 
 #: ../ui/mainmenubar.xml:231
 msgid "_Bottom to Top"
-msgstr "_Bas en haut"
+msgstr "_Bas en Haut"
 
 #: ../ui/mainmenubar.xml:238
 msgid "_Cols/Rows"
@@ -3792,163 +3792,163 @@ msgstr "_Colonnes/Lignes"
 
 #: ../ui/mainmenubar.xml:241
 msgid "Set Columns"
-msgstr "Définir les colonnes"
+msgstr "Nombre de colonnes"
 
 #: ../ui/mainmenubar.xml:245
 msgid "_1 Column"
-msgstr ""
+msgstr "_1 colonne"
 
 #: ../ui/mainmenubar.xml:250
 msgid "_2 Columns"
-msgstr ""
+msgstr "_2 colonnes"
 
 #: ../ui/mainmenubar.xml:255
 msgid "_3 Columns"
-msgstr ""
+msgstr "_3 colonnes"
 
 #: ../ui/mainmenubar.xml:260
 msgid "_4 Columns"
-msgstr ""
+msgstr "_4 colonnes"
 
 #: ../ui/mainmenubar.xml:265
 msgid "_5 Columns"
-msgstr ""
+msgstr "_5 colonnes"
 
 #: ../ui/mainmenubar.xml:270
 msgid "_6 Columns"
-msgstr ""
+msgstr "_6 colonnes"
 
 #: ../ui/mainmenubar.xml:275
 msgid "_7 Columns"
-msgstr ""
+msgstr "_7 colonnes"
 
 #: ../ui/mainmenubar.xml:280
 msgid "_8 Columns"
-msgstr ""
+msgstr "_8 colonnes"
 
 #: ../ui/mainmenubar.xml:287
 msgid "Set Rows"
-msgstr ""
+msgstr "Nombre de lignes"
 
 #: ../ui/mainmenubar.xml:291
 msgid "_1 Row"
-msgstr ""
+msgstr "_1 ligne"
 
 #: ../ui/mainmenubar.xml:296
 msgid "_2 Rows"
-msgstr ""
+msgstr "_2 lignes"
 
 #: ../ui/mainmenubar.xml:301
 msgid "_3 Rows"
-msgstr ""
+msgstr "_3 lignes"
 
 #: ../ui/mainmenubar.xml:306
 msgid "_4 Rows"
-msgstr ""
+msgstr "_4 lignes"
 
 #: ../ui/mainmenubar.xml:311
 msgid "_5 Rows"
-msgstr ""
+msgstr "_5 lignes"
 
 #: ../ui/mainmenubar.xml:316
 msgid "_6 Rows"
-msgstr ""
+msgstr "_6 lignes"
 
 #: ../ui/mainmenubar.xml:321
 msgid "_7 Rows"
-msgstr ""
+msgstr "_7 lignes"
 
 #: ../ui/mainmenubar.xml:326
 msgid "_8 Rows"
-msgstr ""
+msgstr "_8 lignes"
 
 #: ../ui/mainmenubar.xml:337
 msgid "T_oolbars"
-msgstr ""
+msgstr "Barre d'_outils"
 
 #: ../ui/mainmenubar.xml:340
 msgid "_Manage"
-msgstr ""
+msgstr "_Gérer"
 
 #: ../ui/mainmenubar.xml:344
 msgid "_Customize"
-msgstr ""
+msgstr "_Personnaliser"
 
 #: ../ui/mainmenubar.xml:359
 msgid "Zoom In"
-msgstr ""
+msgstr "Zoom avant"
 
 #: ../ui/mainmenubar.xml:364
 msgid "Zoom Out"
-msgstr ""
+msgstr "Zoom arrière"
 
 #: ../ui/mainmenubar.xml:369
 msgid "Normal Size"
-msgstr ""
+msgstr "Taille normale"
 
 #: ../ui/mainmenubar.xml:373
 msgid "Zoom to Fit"
-msgstr ""
+msgstr "Ajuster à l'écran"
 
 #: ../ui/mainmenubar.xml:379
 msgid "_Navigation"
-msgstr ""
+msgstr "_Navigation"
 
 #: ../ui/mainmenubar.xml:382
 msgid "_First Page"
-msgstr ""
+msgstr "P_remière page"
 
 #: ../ui/mainmenubar.xml:387
 msgid "_Previous Page"
-msgstr ""
+msgstr "Page _précédente"
 
 #: ../ui/mainmenubar.xml:392
 msgid "_Goto Page"
-msgstr ""
+msgstr "_Aller à la page"
 
 #: ../ui/mainmenubar.xml:397
 msgid "_Next Page"
-msgstr ""
+msgstr "Page _suivante"
 
 #: ../ui/mainmenubar.xml:402
 msgid "_Last Page"
-msgstr ""
+msgstr "_Dernière page"
 
 #: ../ui/mainmenubar.xml:409
 msgid "_Previous Layer"
-msgstr ""
+msgstr "Calque pré_cédent"
 
 #: ../ui/mainmenubar.xml:414
 msgid "_Next Layer"
-msgstr ""
+msgstr "Calque sui_vant"
 
 #: ../ui/mainmenubar.xml:419
 msgid "_Top Layer"
-msgstr ""
+msgstr "Calque du _haut"
 
 #: ../ui/mainmenubar.xml:425
 msgid "N_ext Annotated Page"
-msgstr ""
+msgstr "Page annotée s_uivante"
 
 #: ../ui/mainmenubar.xml:430
 msgid "P_revious Annotated Page"
-msgstr ""
+msgstr "Page annotée p_récédente"
 
 #: ../ui/mainmenubar.xml:437
 msgid "_Journal"
-msgstr ""
+msgstr "_Journal"
 
 #: ../ui/mainmenubar.xml:440
 msgid "New Page _Before"
-msgstr ""
+msgstr "Nouvelle page A_vant"
 
 #: ../ui/mainmenubar.xml:444
 msgid "New Page _After"
-msgstr ""
+msgstr "Nouvelle page A_près"
 
 #: ../ui/mainmenubar.xml:449
 msgid "New Page at _End"
-msgstr ""
+msgstr "Nouvelle page à la _Fin"
 
 #: ../ui/mainmenubar.xml:453
 msgid "Duplicate Page"
