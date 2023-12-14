@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-22 08:35+0000\n"
-"PO-Revision-Date: 2023-11-22 08:44\n"
+"PO-Revision-Date: 2023-12-14 23:44\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
 "Language: es_ES\n"
@@ -140,7 +140,7 @@ msgstr "Archivos de Xournal++"
 
 #: ../src/core/control/Control.cpp:1781
 msgid "Select font"
-msgstr ""
+msgstr "Seleccionar fuente"
 
 #: ../src/core/control/Control.cpp:1796
 #: ../src/core/gui/toolbarMenubar/ColorSelectorToolItem.cpp:59
@@ -174,7 +174,7 @@ msgstr "Descartar"
 
 #: ../src/core/control/CrashHandler.cpp:31
 msgid "Trying to emergency save the current open document..."
-msgstr ""
+msgstr "Intentando guardado de emergencia en el documento actual..."
 
 #: ../src/core/control/CrashHandler.cpp:40
 #: ../src/core/control/XournalMain.cpp:301
@@ -294,7 +294,7 @@ msgstr "Nombre del archivo de registro más reciente: {1}"
 
 #: ../src/core/control/XournalMain.cpp:193
 msgid "To prevent this popup from reappearing, simply delete the errorlogfiles."
-msgstr ""
+msgstr "Para evitar que este diálogo reaparezca, simplemente elimine los archivos de registro de error."
 
 #: ../src/core/control/XournalMain.cpp:196
 msgid "File Bug Report"
@@ -365,14 +365,16 @@ msgstr "Xournal++ solo puede abrir un archivo a la vez.\n"
 
 #: ../src/core/control/XournalMain.cpp:471
 msgid "File {1} does not exist."
-msgstr ""
+msgstr "El archivo {1} no existe."
 
 #: ../src/core/control/XournalMain.cpp:475
 #: ../src/core/control/XournalMain.cpp:573
 msgid "Filesystem error: {1}\n"
 "Sorry, Xournal++ cannot open the file: {2}\n"
 "Consider copying the file to a local directory."
-msgstr ""
+msgstr "Error del sistema de archivos: {1}\n"
+"Lo sentimos, Xournal++ no puede abrir el archivo: {2}\n"
+"Considere copiar el archivo a un directorio local."
 
 #: ../src/core/control/XournalMain.cpp:691
 msgid "Jump to Page (first Page: 1)"
@@ -389,11 +391,12 @@ msgstr "Deshabilitar audio para esta sesión"
 #: ../src/core/control/XournalMain.cpp:699
 msgid "Open PDF in attach mode\n"
 "                                 Ignored if no PDF file is specified."
-msgstr ""
+msgstr "Abrir PDF en modo adjunto\n"
+"ignorado si no se especifica un archivo PDF."
 
 #: ../src/core/control/XournalMain.cpp:703
 msgid "Save xopp-file with the background PDF specified as FILE"
-msgstr ""
+msgstr "Guardar el archivo xopp con el PDF de fondo especificado como ARCHIVO"
 
 #: ../src/core/control/XournalMain.cpp:712
 msgid "Export FILE as PDF"
@@ -488,7 +491,7 @@ msgstr "Exportar PDF"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:24
 msgid "_Export"
-msgstr ""
+msgstr "_Exportar"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:46
 msgid "Do not overwrite the background PDF! This will cause errors!"
@@ -1646,7 +1649,7 @@ msgstr "Página"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:12
 msgid "PDF text selection dropdown menu"
-msgstr ""
+msgstr "Menú desplegable de selección de texto PDF"
 
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
 msgid "Select PDF Text In Rectangle"
@@ -1654,7 +1657,7 @@ msgstr "Seleccionar texto PDF en el rectángulo"
 
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:28
 msgid "Selection dropdown menu"
-msgstr ""
+msgstr "Menú desplegable de selección"
 
 #: ../src/core/gui/toolbarMenubar/ToolZoomSlider.cpp:133
 msgid "Zoom Slider"
@@ -1663,57 +1666,57 @@ msgstr "Barra de zoom"
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:109
 msgctxt "Color"
 msgid "Black"
-msgstr ""
+msgstr "Negro"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:110
 msgctxt "Color"
 msgid "Green"
-msgstr ""
+msgstr "Verde"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:111
 msgctxt "Color"
 msgid "Light Blue"
-msgstr ""
+msgstr "Celeste"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:112
 msgctxt "Color"
 msgid "Light Green"
-msgstr ""
+msgstr "Verde claro"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:113
 msgctxt "Color"
 msgid "Blue"
-msgstr ""
+msgstr "Azul"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:114
 msgctxt "Color"
 msgid "Gray"
-msgstr ""
+msgstr "Gris"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:115
 msgctxt "Color"
 msgid "Red"
-msgstr ""
+msgstr "Rojo"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:116
 msgctxt "Color"
 msgid "Magenta"
-msgstr ""
+msgstr "Magenta"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:117
 msgctxt "Color"
 msgid "Orange"
-msgstr ""
+msgstr "Naranja"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:118
 msgctxt "Color"
 msgid "Yellow"
-msgstr ""
+msgstr "Amarillo"
 
 #: ../src/core/gui/toolbarMenubar/model/ColorPalette.cpp:119
 msgctxt "Color"
 msgid "White"
-msgstr ""
+msgstr "Blanco"
 
 #: ../src/core/gui/toolbarMenubar/model/ToolbarData.cpp:104
 msgid "Toolbar found: {1}"
@@ -2012,7 +2015,7 @@ msgstr "Autores"
 #: ../ui/about.glade:397 ../ui/toolbarCustomizeDialog.glade:239
 #: ../ui/toolbarManageDialog.glade:134
 msgid "Close"
-msgstr ""
+msgstr "Cerrar"
 
 #: ../ui/exportSettings.glade:36
 msgid "Resolution"
@@ -2096,7 +2099,7 @@ msgstr "Si está habilitado, las capas de cada página serán añadidas una por 
 #: ../ui/selectOpacity.glade:134 ../ui/settings.glade:6198
 #: ../ui/texdialog.glade:203
 msgid "Ok"
-msgstr ""
+msgstr "Aceptar"
 
 #: ../ui/goto.glade:23
 msgid "Go to Page"
@@ -2302,7 +2305,7 @@ msgstr "Altura:"
 
 #: ../ui/pageFormat.glade:315
 msgid "Reset"
-msgstr ""
+msgstr "Restablecer"
 
 #: ../ui/pageTemplate.glade:27
 msgid "Configure new page template"
@@ -2362,7 +2365,7 @@ msgstr "Seleccionar página de PDF"
 
 #: ../ui/plugin.glade:22
 msgid "Plugins"
-msgstr ""
+msgstr "Extensiones"
 
 #: ../ui/plugin.glade:80
 msgid "Plugin changes are only applied after Xournal++ is restarted"
@@ -2419,7 +2422,8 @@ msgstr "Preferencias de Xournal++"
 #: ../ui/settings.glade:345
 msgid "<i>If the document already was saved you can find it in the same folder with the extension .autosave.xopp\n"
 "If the file was not yet saved you can find it in ~/.cache/xournalpp/autosaves</i>"
-msgstr ""
+msgstr "<i>Si el documento ya ha sido guardado, puede encontrarlo en la misma carpeta con la extensión .autosave.xoj\n"
+"Si el archivo aún no se ha guardado, puede encontrarlo en ~/.cache/xournalpp/autosaves</i>"
 
 #: ../ui/settings.glade:363
 msgid "Enable Autosaving"
@@ -2470,7 +2474,29 @@ msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
 "%Z\t\tTimezone name or abbreviation (e.g. CDT)\n"
 "%%\t\t%\n"
 "Illegal characters are replaced with \"_\""
-msgstr ""
+msgstr "%a\t\tNombre de día abreviado (ej: jue)\n"
+"%A\t\tNombre de día completo (ej: jueves)\n"
+"%b\t\tNombre de mes abreviado (ej: ago)\n"
+"%B\t\tNombre de mes completo (ej: agosto)\n"
+"%c\t\tFormato de fecha y hora (ej: jue 23 ago 14:55:02 2001)\n"
+"%d\t\tDía del mes (01-31)\n"
+"%F\t\tFormato de fecha (ej: 2001-08-23)\n"
+"%H\t\tHora en formato militar (00-23)\n"
+"%I\t\tHora en a. m./p. m. (01-12)\n"
+"%j\t\tDía del año (001-366)\n"
+"%m\t\tMes como número decimal (01-12)\n"
+"%M\t\tMinuto (00-59)\n"
+"%p\t\tDesignación «a. m.» o «p. m.» (ej: p. m.)\n"
+"%S\t\tSegundo (00-61)\n"
+"%U\t\tN.º de semana; el primer domingo comienza la semana 1 (00-53)\n"
+"%w\t\tDía de la semana como número decimal; el domingo es 0 (0-6)\n"
+"%W\t\tN.º de semana con el primer lunes como primer día de la semana uno (00-53)\n"
+"%x\t\tFormato de fecha (ej: 08/23/01)\n"
+"%X\t\tFormato de hora (ej: 14:55:02)\n"
+"%y\t\tAño, últimos dos dígitos (00-99)\n"
+"%Y\t\tAño (ej: 2001)\n"
+"%Z\t\tNombre o abreviatura de huso horario (ej: CDT)\n"
+"%%\t\t%"
 
 #: ../ui/settings.glade:585 ../ui/settings.glade:754
 msgid "Available Placeholders"
